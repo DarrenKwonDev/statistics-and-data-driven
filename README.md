@@ -13,9 +13,13 @@
     - [ref](#ref-3)
   - [ch04. machine learning](#ch04-machine-learning)
     - [ref](#ref-4)
-  - [ch05. data engineering & self-service](#ch05-data-engineering--self-service)
+  - [ch05. database internal](#ch05-database-internal)
     - [ref](#ref-5)
-  - [ch06. doc-culture](#ch06-doc-culture)
+  - [ch06. RDBMS design & relationship theory](#ch06-rdbms-design--relationship-theory)
+    - [ref](#ref-6)
+  - [ch07. general data engineering & self-service](#ch07-general-data-engineering--self-service)
+    - [ref](#ref-7)
+  - [ch08. doc-culture](#ch08-doc-culture)
   - [etc](#etc)
     - [disclaimer](#disclaimer)
     - [pre-commit hook](#pre-commit-hook)
@@ -59,11 +63,23 @@
 
 ### ref
 
-## ch05. data engineering & self-service
+## ch05. database internal
 
 ### ref
 
-## ch06. doc-culture
+> Petrov, 이우현, and 이태휘. 데이터베이스 인터널스 : 분산 데이터베이스 시스템 심층 분석 / 알렉스 페트로프 지음 ; 이우현 옮김 (2021). Print.
+
+## ch06. RDBMS design & relationship theory
+
+### ref
+
+> Date, 이기홍, and 곽승주. 데이터베이스 설계와 관계형 이론 : 정규화와 탈정규화를 중심으로 / C. J. 데이트 지음 ; 이기홍, 곽승주 옮김 (2021). Print.
+
+## ch07. general data engineering & self-service
+
+### ref
+
+## ch08. doc-culture
 
 조직에 문서 주도 문화를 도입하기 위한 자료들입니다.
 비효율적인 회의를 줄이고, 문서를 통해 효율적인 의사소통을 할 수 있도록 도와줍니다.
