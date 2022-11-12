@@ -50,8 +50,8 @@
   - 이 때, 높이는 부분 구간에 속한 자료의 비율, 즉, `밀도(density scale)`를 나타냄. 걍 직관적으로 일상 용어처럼 받아들이면 이해됨.
 
 $$
-density = \frac{frequency}{sub\_interval}  \\
-\sum{density * class\_interval} = 1
+density = \frac{frequency}{sub\;interval} \\
+\sum{density \times class\;interval} = 1
 $$
 
 ## glossary
