@@ -34,7 +34,7 @@
   - randomized controlled double blind experiment(랜덤화된 통제된 이중 블라인드 실험)위 두 요소를 둘다 갖춘 실험 방법
 - 경험적 연구(observation research)
   - 자연적으로 발생하는 현상을 연구자가 임의로 분석하는 것으로, 관련성은 알 수 있지만 그것이 causation(인과관계)인지 알 수 없음
-  - 혼동 요인(confounding factor) : 결과에 영향을 미치는 제 3의 요인
+  - 혼동 요인(confounding factor) : 결과와 원인 둘 다에게 영향을 미치는 제 3의 요인
   - 혼동 요인에 대한 통제를 위해서 작고 동질적인 하위 집단으로 나누어 연구하는 것이 필요
 
 ## 02 히스토그램
