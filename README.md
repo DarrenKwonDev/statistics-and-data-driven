@@ -48,6 +48,7 @@
 ### ref
 
 > 류근관. 통계학 / 저자: 류근관 (2013).
+> Bruce, Gedeck, 이준용, Bruce, Andrew, and Gedeck, Peter. 데이터 과학을 위한 통계 / 피터 브루스, 앤드루 브루스, 피터 게데크 지음 ; 이준용 옮김. (2021). Print.
 
 ## ch02. bayesian statistics
 
