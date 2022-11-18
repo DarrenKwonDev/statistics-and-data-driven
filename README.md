@@ -40,7 +40,7 @@
 ## ch01. basic statistics
 
 - [01 자료의 정리](./ch01-basic-statistics/01_자료의_정리/README.md)
-- [02 상관관계 회귀 분석](./ch01-basic-statistics/02_상관관계와_회귀분석/README.md)
+- [02 상관관계와 회귀 분석](./ch01-basic-statistics/02_상관관계와_회귀분석/README.md)
 - 03 확률과 변동성
 - 04 표본추출
 - 05 유의성 검정
