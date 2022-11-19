@@ -20,10 +20,10 @@
 
 ## why doc culture?
 
-조직에 문서 주도 문화를 도입하기 위한 자료들입니다.  
+조직에 문서 주도 문화를 도입하기 위한 자료들입니다.
 비효율적인 회의를 줄이고, 문서를 통해 효율적인 의사소통을 할 수 있도록 도와줍니다.
 
-사실 문서 주도에 대한 제 생각들은 처음부터 있었던 것은 아닙니다.  
+사실 문서 주도에 대한 제 생각들은 처음부터 있었던 것은 아닙니다.
 조직에 data-driven한 조직 문화를 만들고자 했지만 data를 제공해도 구성원이 해당 내용을 읽지 않으면 아무 소용이 없다는 경험 이후에 생각하게 된 개인적인 문화, 방법론입니다.
 
 즉, data-driven 이전에 문서 위주의 문화를 조성해야 한다는 생각입니다.
@@ -43,10 +43,10 @@
 
 ### doc culture system reference
 
-[Eng)The Document Culture of Amazon](https://www.justingarrison.com/blog/2021-03-15-the-document-culture-of-amazon/)  
+[Eng)The Document Culture of Amazon](https://www.justingarrison.com/blog/2021-03-15-the-document-culture-of-amazon/)
 [Kor)The Document Culture of Amazon](https://news.hada.io/topic?id=4479)
 
-[Eng)It's time to start writing](https://alexnixon.github.io/2019/12/10/writing.html)  
+[Eng)It's time to start writing](https://alexnixon.github.io/2019/12/10/writing.html)
 [Kor)It's time to start writing](https://news.hada.io/topic?id=2504)
 
 ## how to organize doc?
@@ -70,11 +70,12 @@
 
 ### doc parse, processing
 
-[hwp.js](https://github.com/hahnlee/hwp.js)  
-[hwp-rs](https://github.com/hahnlee/hwp-rs)  
-[docconv](https://github.com/sajari/docconv)  
-[wkhtmltopdf](https://wkhtmltopdf.org/)  
-[wkhtmltopdf-go](https://github.com/andrewcharlton/wkhtmltopdf-go)  
+[hwp.js](https://github.com/hahnlee/hwp.js)
+[hwp-rs](https://github.com/hahnlee/hwp-rs)
+[docconv](https://github.com/sajari/docconv)
+[wkhtmltopdf](https://wkhtmltopdf.org/)
+[wkhtmltopdf-go](https://github.com/andrewcharlton/wkhtmltopdf-go)
 [unioffice](https://github.com/unidoc/unioffice)
+[@webtoon/psd](https://d2.naver.com/helloworld/6631477)
 
 [Kotlin으로 DSL 만들기](https://toss.tech/article/kotlin-dsl-restdocs)
