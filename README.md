@@ -20,6 +20,8 @@
   - [ch07. general data engineering & self-service](#ch07-general-data-engineering--self-service)
     - [ref](#ref-7)
   - [ch08. doc-culture](#ch08-doc-culture)
+  - [ch09. financial engineering](#ch09-financial-engineering)
+    - [ref](#ref-8)
   - [etc](#etc)
     - [disclaimer](#disclaimer)
     - [pre-commit hook](#pre-commit-hook)
@@ -91,6 +93,10 @@
 즉, data-driven 이전에 문서 위주의 문화를 조성해야 한다는 생각입니다.
 
 [바로가기](./ch06-doc-culture/README.md)
+
+## ch09. financial engineering
+
+### ref
 
 ## etc
 
