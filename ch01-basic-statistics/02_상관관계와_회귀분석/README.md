@@ -67,6 +67,42 @@ data의 분포가 타원형이 아니라면, 회귀 직선은 data의 분포를 
 
 ## 03 회귀분석의 오차
 
+### residual(잔차), RMSE
+
+실제값과 회귀를 통한 추정치와의 차이를 추정 오차라 한다. 간단히, 실제값과 추정치를 빼면 잔차(residual)가 나온다.
+잔차를 기반으로 회귀분석의 전반적 오차를 측정하게 된다.
+
+이 잔차의 제곱합(SSE, sum of squared error)
+MSE(mean squared error) = $\frac{SSE}{n - 2}$
+RMSE(root mean squared error) = $\sqrt{MSE}$
+
+꼴로 유도하는데 보통 곧장 RMSE를 계산한다. 수식에서 밑변이 자유도인 `n-2`를 사용함에 유의하자.
+
+$$
+RMSE = \sqrt{\frac{(x - x_1)^2 + ... + (x - x_n)^2}{n-2}}
+$$
+
+RMSE는 표준편차와 같이 해당 직선으로부터 $\pm 1 RMSE$ 떨어진 데이터들이 68%, $\pm 2 RMSE$ 떨어진 데이터들이 95% 존재한다는 것을 의미한다.
+
+### correlation coefficient(r)를 통한 RMSE 추정
+
+x에 관한 y를 회귀 추정할 경우 계산되는 RMSE는 아래와 같이 근사될 수 있다.
+RMSE는 정의상 자유도가 -2 이지만 SD를 구할 때는 -1이기 때문에 값이 같지는 않다. 다만 표본의 수가 많으면 그 값에 큰 차이가 없다.
+
+$$
+RMSE \approx \sqrt{1 - r^2} \times SD_y
+$$
+
+### homoscedasticity, heteroscedasticity(등분산성과 이분산성)
+
+잔차의 분산이 일정한 경우 homoscedasticity, 일정하지 않은 경우 heteroscedasticity라고 한다.
+
+풀어쓰자면, scatter plot으로 데이터를 그린 후에 세로띠를 그려 특정 x에 속한 (x, y) 순서쌍들이 가지는 y가 퍼져 있는 정도(분산, 표준편차)를 확인할 수 있을 것이다. 이 정도가 x에 따라 일관된다면 해당 데이터는 homoscedasticity를 가지고 있다고 할 수 있으며 RMSE의 추정 오차가 어느 곳에서나 적용될 수 있다고 볼 수 있다.
+
+그러나 x에 따라 퍼져있는 정도가 일정하지 않다면 RMSE를 일관되게 적용할 수 없으며 해당 데이터는 heteroscedasticity를 가지고 있다고 할 수 있다.
+
+단순하게 생각하면 scatter plot이 타원형이라면 등분산성을 가정하고 회귀분석을 진행할 수 있다.
+
 ## 04 회귀직선
 
 ## glossary
