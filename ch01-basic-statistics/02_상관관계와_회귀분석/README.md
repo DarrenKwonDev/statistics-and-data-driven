@@ -42,7 +42,7 @@ $$
 - 강한 상관관계를 가진다고해서 그것이 인과관계를 드러내지는 않는다.
   - 발의 크기와 어휘력이란 두 변수 사이의 상관관계는 인과가 아니다. 나이라는 confounding factor를 무시한 것이다.
 
-## 02 regression analysis (회귀분석)
+## 02 simple regression analysis (단순회귀분석)
 
 ### regression line(회귀 직선)
 
