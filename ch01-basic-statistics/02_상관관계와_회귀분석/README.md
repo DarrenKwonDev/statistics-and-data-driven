@@ -1,6 +1,26 @@
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
+
+- [01 상관관계](#01-상관관계)
+  - [상관관계와 인과관계](#상관관계와-인과관계)
+  - [correlation coefficient(상관계수, r)](#correlation-coefficient상관계수-r)
+  - [상관계수의 의미와 한계](#상관계수의-의미와-한계)
+- [02 simple regression analysis (단순회귀분석)](#02-simple-regression-analysis-단순회귀분석)
+  - [regression line(회귀 직선)](#regression-line회귀-직선)
+  - [regression effect](#regression-effect)
+  - [용어의 혼란 주의](#용어의-혼란-주의)
+- [03 회귀분석의 오차](#03-회귀분석의-오차)
+  - [residual(잔차), RMSE](#residual잔차-rmse)
+  - [correlation coefficient(r)를 통한 RMSE 추정](#correlation-coefficientr를-통한-rmse-추정)
+  - [homoscedasticity, heteroscedasticity(등분산성과 이분산성)](#homoscedasticity-heteroscedasticity등분산성과-이분산성)
+  - [세로띠 안의 분포를 정규 분포로 근사하기](#세로띠-안의-분포를-정규-분포로-근사하기)
+- [04 회귀직선](#04-회귀직선)
+  - [linear equation](#linear-equation)
+  - [multiple regression(중회귀분석)](#multiple-regression중회귀분석)
+  - [총변동의 분리와 결정계수(coefficient of determination)](#총변동의-분리와-결정계수coefficient-of-determination)
+  - [adjust R^2 (조정된 결정계수)](#adjust-r2-조정된-결정계수)
+- [glossary](#glossary)
 <!-- /code_chunk_output -->
 
 ## 01 상관관계

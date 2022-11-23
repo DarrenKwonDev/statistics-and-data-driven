@@ -1,6 +1,26 @@
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
+
+- [01 자료의 정리](#01-자료의-정리)
+  - [관측 자료의 종류](#관측-자료의-종류)
+  - [변수](#변수)
+  - [실험연구와 경험적 연구](#실험연구와-경험적-연구)
+- [02 히스토그램](#02-히스토그램)
+  - [개괄](#개괄)
+  - [히스토그램 작성과 해석](#히스토그램-작성과-해석)
+- [평균과 표준편차(SD)](#평균과-표준편차sd)
+  - [평균과 분포](#평균과-분포)
+  - [평균, 중앙값, 최빈값, RMS : 무엇이 대표값인가?](#평균-중앙값-최빈값-rms--무엇이-대표값인가)
+  - [SD : 평균으로 부터 퍼진 정도](#sd--평균으로-부터-퍼진-정도)
+- [측정 오차](#측정-오차)
+- [(normal approximation)정규분포로의 근사](#normal-approximation정규분포로의-근사)
+  - [standardization(표준화)](#standardization표준화)
+  - [normal distribution(정규분포)](#normal-distribution정규분포)
+  - [정규분포로 부터 근사](#정규분포로-부터-근사)
+  - [정규 분포가 아닌 데이터들의 대표값 : percentile(백분위수), quartile(사분위수), decile(십분위수)](#정규-분포가-아닌-데이터들의-대표값--percentile백분위수-quartile사분위수-decile십분위수)
+- [glossary](#glossary)
+
 <!-- /code_chunk_output -->
 
 ## 01 자료의 정리
