@@ -9,6 +9,10 @@
   - [Naive Bayesian](#naive-bayesian)
   - [일반화된 Naive Bayesian](#일반화된-naive-bayesian)
   - [독립(independent)](#독립independent)
+- [02 이항공식](#02-이항공식)
+- [03 평균의 법칙](#03-평균의-법칙)
+- [04 기대값과 표준오차](#04-기대값과-표준오차)
+- [05 정규분포곡선과 확률히스토그램](#05-정규분포곡선과-확률히스토그램)
 - [glossary](#glossary)
 
 <!-- /code_chunk_output -->
@@ -80,6 +84,14 @@ P(A \mid B) = P(A) \\
 P(B \mid A) = P(B) \\
 P(A \cap B) = P(A)P(B)
 $$
+
+## 02 이항공식
+
+## 03 평균의 법칙
+
+## 04 기대값과 표준오차
+
+## 05 정규분포곡선과 확률히스토그램
 
 ## glossary
 
