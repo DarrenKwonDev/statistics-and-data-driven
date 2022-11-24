@@ -4,9 +4,8 @@
 
 - [01 확률이란 무엇인가](#01-확률이란-무엇인가)
   - [확률의 일반화된 덧셈법칙](#확률의-일반화된-덧셈법칙)
-- [조건부 법칙과 곱셈법칙](#조건부-법칙과-곱셈법칙)
-- [partition(분할)과 베이즈 정리 기초](#partition분할과-베이즈-정리-기초)
-  - [MECE한 partition](#mece한-partition)
+  - [조건부 법칙과 곱셈법칙](#조건부-법칙과-곱셈법칙)
+  - [MECE한 partition(분할)](#mece한-partition분할)
   - [Naive Bayesian](#naive-bayesian)
   - [일반화된 Naive Bayesian](#일반화된-naive-bayesian)
   - [독립(independent)](#독립independent)
@@ -35,16 +34,14 @@ $$
 P(A \cup B) = P(A) + P(B)
 $$
 
-## 조건부 법칙과 곱셈법칙
+### 조건부 법칙과 곱셈법칙
 
 $$
 P(A \mid B) = \frac{P(A \cap B)}{P(B)} \\
 P(A \cap B) = P(A)P(B \mid A) = P(B)P(A \mid B)
 $$
 
-## partition(분할)과 베이즈 정리 기초
-
-### MECE한 partition
+### MECE한 partition(분할)
 
 사건이 전체를 포괄하고(collectively exhaustive) 상호 배반적(mutual exclusive)일 때,
 컨설팅 업계에서는 흔히 이를 'MECE'하다라고 표현한다. 통계학에서는 이를 전체를 '분할'(partition)한다고 표현한다.
