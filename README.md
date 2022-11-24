@@ -4,8 +4,20 @@
 
 - [statistics-and-data-driven](#statistics-and-data-driven)
   - [ch00. basic math](#ch00-basic-math)
+    - [01 numpy와 선형대수](#01-numpy와-선형대수)
+    - [02 sympy와 미적분](#02-sympy와-미적분)
+    - [03 scipy와 최적화](#03-scipy와-최적화)
+    - [04 확률변수와 상관관계](#04-확률변수와-상관관계)
+    - [05 확률 분포](#05-확률-분포)
+    - [06 추정과 검정](#06-추정과-검정)
+    - [07 엔트로피](#07-엔트로피)
     - [ref](#ref)
   - [ch01. basic statistics](#ch01-basic-statistics)
+    - [01 자료의 정리](#01-자료의-정리)
+    - [02 상관관계와 회귀 분석](#02-상관관계와-회귀-분석)
+    - [03 확률과 변동성](#03-확률과-변동성)
+    - [04 표본추출](#04-표본추출)
+    - [05 유의성 검정](#05-유의성-검정)
     - [ref](#ref-1)
   - [ch02. bayesian statistics](#ch02-bayesian-statistics)
     - [ref](#ref-2)
@@ -35,17 +47,35 @@
 
 ## ch00. basic math
 
+### 01 numpy와 선형대수
+
+### 02 sympy와 미적분
+
+### 03 scipy와 최적화
+
+### 04 확률변수와 상관관계
+
+### 05 확률 분포
+
+### 06 추정과 검정
+
+### 07 엔트로피
+
 ### ref
 
 > 김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.
 
 ## ch01. basic statistics
 
-- [01 자료의 정리](./ch01-basic-statistics/01_자료의_정리/README.md)
-- [02 상관관계와 회귀 분석](./ch01-basic-statistics/02_상관관계와_회귀분석/README.md)
-- [03 확률과 변동성](./ch01-basic-statistics/03_확률과_변동성/README.md)
-- 04 표본추출
-- 05 유의성 검정
+### [01 자료의 정리](./ch01-basic-statistics/01_자료의_정리/README.md)
+
+### [02 상관관계와 회귀 분석](./ch01-basic-statistics/02_상관관계와_회귀분석/README.md)
+
+### [03 확률과 변동성](./ch01-basic-statistics/03_확률과_변동성/README.md)
+
+### 04 표본추출
+
+### 05 유의성 검정
 
 ### ref
 
