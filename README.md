@@ -38,6 +38,7 @@
     - [ref](#ref-9)
   - [etc](#etc)
     - [disclaimer](#disclaimer)
+    - [highschool math](#highschool-math)
     - [pre-commit hook](#pre-commit-hook)
     - [glossary](#glossary)
 
@@ -144,6 +145,15 @@
 ### disclaimer
 
 no typing
+
+### highschool math
+
+별도로 설명하지는 않겠지만 아래 내용을 알고 있어야 한다.
+
+- 고1) 다항식, 인수분해, 이차함수, 복소수, 원, 직선의 이동, 집합론
+- 수1) 제곱, 로그, 삼각함수, 수열
+- 수2) 극한, 기초 미적분
+- 확통) 기초 확률론, 정규 분포
 
 ### pre-commit hook
 
