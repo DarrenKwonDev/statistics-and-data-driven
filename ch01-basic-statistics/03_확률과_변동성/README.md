@@ -3,12 +3,12 @@
 <!-- code_chunk_output -->
 
 - [01 확률이란 무엇인가](#01-확률이란-무엇인가)
-  - [확률의 일반화된 덧셈법칙](#확률의-일반화된-덧셈법칙)
-  - [조건부 법칙과 곱셈법칙](#조건부-법칙과-곱셈법칙)
+  - [확률의 일반화된 덧셈법칙, 배반](#확률의-일반화된-덧셈법칙-배반)
+  - [조건부 법칙과 곱셈법칙, 독립](#조건부-법칙과-곱셈법칙-독립)
   - [MECE한 partition(분할)](#mece한-partition분할)
   - [Naive Bayesian](#naive-bayesian)
   - [일반화된 Naive Bayesian](#일반화된-naive-bayesian)
-  - [독립(independent)](#독립independent)
+  - [독립(independent)과 배반(mutually exclusive)](#독립independent과-배반mutually-exclusive)
 - [02 이항공식](#02-이항공식)
 - [03 평균의 법칙](#03-평균의-법칙)
 - [04 기대값과 표준오차](#04-기대값과-표준오차)
@@ -26,23 +26,29 @@
 3. 새로운 정보를 토대로 어떤 사건이 발생했다는 주장에 대한 신뢰도를 갱신해 나가는 방법으로서의 통계 (Bayesian view)
    - 이는 연역적인 빈도 주의가 아닌 통계를 귀납적으로 바라보는 패러다임 전환을 의미한다.
 
-### 확률의 일반화된 덧셈법칙
+### 확률의 일반화된 덧셈법칙, 배반
 
 $$
 P(A \cup B) = P(A) + P(B) - P(A \cap B)
 $$
 
-여기서 A와 B가 상호 배반적인 사건(disjoint, mutex)일 경우 $P(A \cap B) = \emptyset$ 이므로 아래처럼 정리할 수 있다.
+여기서 A와 B가 상호 배반적인 사건(disjoint, mutex)일 경우 $P(A \cap B) = \emptyset$ 이므로 아래처럼 정리할 수 있다. 아래 섹션에서 좀 더 자세히 설명한다.
 
 $$
 P(A \cup B) = P(A) + P(B)
 $$
 
-### 조건부 법칙과 곱셈법칙
+### 조건부 법칙과 곱셈법칙, 독립
 
 $$
 P(A \mid B) = \frac{P(A \cap B)}{P(B)} \\
 P(A \cap B) = P(A)P(B \mid A) = P(B)P(A \mid B)
+$$
+
+후술하지만, 독립이라면 $P(A \mid B) = P(A)$ 이므로 아래처럼 정리할 수 있다. 아래 섹션에서 좀 더 자세히 설명한다.
+
+$$
+P(A \mid B) = P(A)P(B)
 $$
 
 ### MECE한 partition(분할)
@@ -74,10 +80,22 @@ $$
 - https://junpyopark.github.io/bayes/
 - https://angeloyeo.github.io/2020/01/09/Bayes_rule.html
 
-### 독립(independent)
+### 독립(independent)과 배반(mutually exclusive)
 
-조건과 상관 없이 확률이 변하지 않으면 두 사건의 관계는 독립(independent)이다. 독립의 반댓말은 종속(dependent).
-사건들이 독립이라면 확률을 곱하기 전에 독립 여부를 확인해야 한다. 종속이라면 곱할 때 조건부확률을 고려해야 한다.
+- A 이거나 B = or($ \cup $) 조건 = 덧셈 법칙 = 배반인지 고려해야 함
+  - 배반 : $P(A) \cap P(B) = 0$ 즉, A와 B가 별개의 조건. 벤 다이어그램으로 표현하면 교집합이 없는 경우다.
+  - 확률간 덧셈을 할 때 사건들이 배반인지 고려해야 함. 이는 본능적으로 이뤄져야 함.
+- A 이고 B = and ($ \cap $) 조건 = 곱셈 법칙 = 독립인지 고려해야 함
+  - 독립 : $P(A \mid B) = P(A)$ 즉, B가 일어나건 말건 A 확률은 그대로임. 풀어 쓰자면 A가 B 혹은 B가 A의 서로의 확률에 영향을 주지 않음.
+  - 확률간 곱셈을 할 떄 사건들이 독립인지 고려해야 함. 이는 본능적으로 이뤄져야 함.
+
+배반
+
+$$
+P(A) \cap P(B) = 0
+$$
+
+독립
 
 $$
 P(A \mid B) = P(A) \\

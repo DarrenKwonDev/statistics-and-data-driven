@@ -34,6 +34,8 @@
   - [ch08. doc-culture](#ch08-doc-culture)
   - [ch09. financial engineering](#ch09-financial-engineering)
     - [ref](#ref-8)
+  - [ch10. distribution computing](#ch10-distribution-computing)
+    - [ref](#ref-9)
   - [etc](#etc)
     - [disclaimer](#disclaimer)
     - [pre-commit hook](#pre-commit-hook)
@@ -130,6 +132,12 @@
 ## ch09. financial engineering
 
 ### ref
+
+## ch10. distribution computing
+
+### ref
+
+> Travis Jeffrey. Distributed Services with Go: Your Guide to Reliable, Scalable, and Maintainable Systems
 
 ## etc
 
