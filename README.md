@@ -6,7 +6,7 @@
   - [ch00. basic math](#ch00-basic-math)
     - [01 numpy와 선형대수](#01-numpy와-선형대수)
     - [02 sympy와 미적분](#02-sympy와-미적분)
-    - [03 scipy와 최적화](#03-scipy와-최적화)
+    - [03 scipy와 Optimization Problem](#03-scipy와-optimization-problem)
     - [04 확률변수와 상관관계](#04-확률변수와-상관관계)
     - [05 확률 분포](#05-확률-분포)
     - [06 추정과 검정](#06-추정과-검정)
@@ -54,7 +54,7 @@
 
 ### 02 sympy와 미적분
 
-### 03 scipy와 최적화
+### 03 scipy와 Optimization Problem
 
 ### 04 확률변수와 상관관계
 
