@@ -63,9 +63,9 @@
 
 ### ref
 
-> 김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.
-> Hiraoka, Hori, 이창신, and Hori, Gen. 프로그래머를 위한 선형대수 = Linear Algebra for Programmer / 히라오카 카즈유키, 호리 겐 [공]지음 ; 이창신 옮김 (2017). Print.
-> Nagano, and 장진희. 다시 미분 적분 = Try Again, Calculas! / 나가노 히로유키 지음 ; 장진희 옮김 (2019). Print.
+> 김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.  
+> Hiraoka, Hori, 이창신, and Hori, Gen. 프로그래머를 위한 선형대수 = Linear Algebra for Programmer / 히라오카 카즈유키, 호리 겐 [공]지음 ; 이창신 옮김 (2017). Print.  
+> Nagano, and 장진희. 다시 미분 적분 = Try Again, Calculas! / 나가노 히로유키 지음 ; 장진희 옮김 (2019). Print.  
 > Nakai, and 이기홍. 프로그래머를 위한 기초 해석학 = Basic Analysis for Programmers / 나카이 에츠지 지음 ; 이기홍 옮김 (2018). Print.
 
 ## ch01. basic statistics
@@ -82,7 +82,7 @@
 
 ### ref
 
-> 류근관. 통계학 / 저자: 류근관 (2013).
+> 류근관. 통계학 / 저자: 류근관 (2013).  
 > Bruce, Gedeck, 이준용, Bruce, Andrew, and Gedeck, Peter. 데이터 과학을 위한 통계 / 피터 브루스, 앤드루 브루스, 피터 게데크 지음 ; 이준용 옮김. (2021). Print.
 
 ## ch02. bayesian statistics
