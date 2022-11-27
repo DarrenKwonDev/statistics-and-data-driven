@@ -3,7 +3,7 @@
 - [doc-culture](#doc-culture)
   - [why doc culture?](#why-doc-culture)
     - [main point](#main-point)
-    - [doc culture system reference](#doc-culture-system-reference)
+    - [doc culture system references](#doc-culture-system-references)
   - [how to organize doc?](#how-to-organize-doc)
     - [서본결](#서본결)
     - [셀프 데이터 서비스와 문서의 연결](#셀프-데이터-서비스와-문서의-연결)
@@ -41,7 +41,7 @@
 - 문서 문화를 정착하면 자연스레 의사결정에 대한 히스토리를 남기게 됩니다.
 - 문화를 정착시키기 위해서는 여러 tech를 통해 자동화에 힘써야 합니다.
 
-### doc culture system reference
+### doc culture system references
 
 [Eng)The Document Culture of Amazon](https://www.justingarrison.com/blog/2021-03-15-the-document-culture-of-amazon/)
 [Kor)The Document Culture of Amazon](https://news.hada.io/topic?id=4479)

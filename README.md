@@ -3,31 +3,28 @@
 <!-- code_chunk_output -->
 
 - [statistics-and-data-driven](#statistics-and-data-driven)
-  - [math \& statistics](#math--statistics)
-    - [basic math](#basic-math)
-      - [01 numpy와 선형대수](#01-numpy와-선형대수)
-      - [02 sympy와 미적분](#02-sympy와-미적분)
-      - [03 scipy와 Optimization Problem](#03-scipy와-optimization-problem)
-      - [04 확률변수와 상관관계](#04-확률변수와-상관관계)
-      - [05 확률 분포](#05-확률-분포)
-      - [06 추정과 검정](#06-추정과-검정)
-      - [07 엔트로피](#07-엔트로피)
-    - [basic statistics](#basic-statistics)
-      - [01 자료의 정리](#01-자료의-정리)
-      - [02 상관관계와 회귀 분석](#02-상관관계와-회귀-분석)
-      - [03 확률과 변동성](#03-확률과-변동성)
-      - [04 표본추출](#04-표본추출)
-      - [05 유의성 검정](#05-유의성-검정)
-    - [bayesian statistics](#bayesian-statistics)
-    - [controlled experiments](#controlled-experiments)
-    - [machine learning](#machine-learning)
-  - [engineering](#engineering)
-    - [database internal](#database-internal)
-    - [RDBMS design \& relationship theory](#rdbms-design--relationship-theory)
-    - [general data engineering \& self-service](#general-data-engineering--self-service)
-    - [distribution computing](#distribution-computing)
-  - [applied fields](#applied-fields)
-    - [financial engineering](#financial-engineering)
+  - [basic math](#basic-math)
+    - [01 numpy와 선형대수](#01-numpy와-선형대수)
+    - [02 sympy와 미적분](#02-sympy와-미적분)
+    - [03 scipy와 Optimization Problem](#03-scipy와-optimization-problem)
+    - [04 확률변수와 상관관계](#04-확률변수와-상관관계)
+    - [05 확률 분포](#05-확률-분포)
+    - [06 추정과 검정](#06-추정과-검정)
+    - [07 엔트로피](#07-엔트로피)
+  - [basic statistics](#basic-statistics)
+    - [01 자료의 정리](#01-자료의-정리)
+    - [02 상관관계와 회귀 분석](#02-상관관계와-회귀-분석)
+    - [03 확률과 변동성](#03-확률과-변동성)
+    - [04 표본추출](#04-표본추출)
+    - [05 유의성 검정](#05-유의성-검정)
+  - [bayesian statistics](#bayesian-statistics)
+  - [controlled experiments](#controlled-experiments)
+  - [machine learning](#machine-learning)
+  - [database internal](#database-internal)
+  - [RDBMS design \& relationship theory](#rdbms-design--relationship-theory)
+  - [general data engineering \& self-service](#general-data-engineering--self-service)
+  - [distribution computing](#distribution-computing)
+  - [financial engineering](#financial-engineering)
   - [doc-culture](#doc-culture)
   - [etc](#etc)
     - [disclaimer](#disclaimer)
@@ -43,31 +40,24 @@
 
 ---
 
-## math & statistics
+## basic math
 
-### basic math
+### 01 numpy와 선형대수
 
-<details>
-<summary>contents</summary>
+### 02 sympy와 미적분
 
-#### 01 numpy와 선형대수
+### 03 scipy와 Optimization Problem
 
-#### 02 sympy와 미적분
+### 04 확률변수와 상관관계
 
-#### 03 scipy와 Optimization Problem
+### 05 확률 분포
 
-#### 04 확률변수와 상관관계
+### 06 추정과 검정
 
-#### 05 확률 분포
-
-#### 06 추정과 검정
-
-#### 07 엔트로피
-
-</details>
+### 07 엔트로피
 
 <details>
-<summary>reference</summary>
+<summary>references</summary>
 
 > 김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.  
 > Hiraoka, Hori, 이창신, and Hori, Gen. 프로그래머를 위한 선형대수 = Linear Algebra for Programmer / 히라오카 카즈유키, 호리 겐 [공]지음 ; 이창신 옮김 (2017). Print.  
@@ -76,123 +66,81 @@
 
 </details>
 
-### basic statistics
+## basic statistics
 
-<details>
-<summary>contents</summary>
+### [01 자료의 정리](./ch01-basic-statistics/01_자료의_정리/README.md)
 
-#### [01 자료의 정리](./ch01-basic-statistics/01_자료의_정리/README.md)
+### [02 상관관계와 회귀 분석](./ch01-basic-statistics/02_상관관계와_회귀분석/README.md)
 
-#### [02 상관관계와 회귀 분석](./ch01-basic-statistics/02_상관관계와_회귀분석/README.md)
+### [03 확률과 변동성](./ch01-basic-statistics/03_확률과_변동성/README.md)
 
-#### [03 확률과 변동성](./ch01-basic-statistics/03_확률과_변동성/README.md)
+### 04 표본추출
 
-#### 04 표본추출
-
-#### 05 유의성 검정
-
-</details>
+### 05 유의성 검정
 
 <details>
 
-<summary>reference</summary>
+<summary>references</summary>
 
 > 류근관. 통계학 / 저자: 류근관 (2013).  
 > Bruce, Gedeck, 이준용, Bruce, Andrew, and Gedeck, Peter. 데이터 과학을 위한 통계 / 피터 브루스, 앤드루 브루스, 피터 게데크 지음 ; 이준용 옮김. (2021). Print.
 
 </details>
 
-### bayesian statistics
+## bayesian statistics
 
 <details>
-<summary>contents</summary>
+<summary>references</summary>
 
 </details>
 
-<details>
-<summary>reference</summary>
-
-</details>
-
-### controlled experiments
+## controlled experiments
 
 <details>
-<summary>contents</summary>
-
-</details>
-
-<details>
-<summary>reference</summary>
+<summary>references</summary>
 
 > Kohavi, Ron, Alex Deng, Brian Frasca, Roger Longbotham, Toby Walker, and Ya Xu. "Trustworthy Online Controlled Experiments."
 
 </details>
 
-### machine learning
+## machine learning
 
 <details>
-<summary>contents</summary>
-
-</details>
-
-<details>
-<summary>reference</summary>
+<summary>references</summary>
 
 </details>
 
 ---
 
-## engineering
-
-### database internal
+## database internal
 
 <details>
-<summary>contents</summary>
-
-</details>
-
-<details>
-<summary>reference</summary>
+<summary>references</summary>
 
 > Petrov, 이우현, and 이태휘. 데이터베이스 인터널스 : 분산 데이터베이스 시스템 심층 분석 / 알렉스 페트로프 지음 ; 이우현 옮김 (2021). Print.
 
 </details>
 
-### RDBMS design & relationship theory
+## RDBMS design & relationship theory
 
 <details>
-<summary>contents</summary>
-
-</details>
-
-<details>
-<summary>reference</summary>
+<summary>references</summary>
 
 > Date, 이기홍, and 곽승주. 데이터베이스 설계와 관계형 이론 : 정규화와 탈정규화를 중심으로 / C. J. 데이트 지음 ; 이기홍, 곽승주 옮김 (2021). Print.
 
 </details>
 
-### general data engineering & self-service
+## general data engineering & self-service
 
 <details>
-<summary>contents</summary>
+<summary>references</summary>
 
 </details>
 
-<details>
-<summary>reference</summary>
-
-</details>
-
-### distribution computing
+## distribution computing
 
 <details>
-<summary>contents</summary>
-
-</details>
-
-<details>
-<summary>reference</summary>
+<summary>references</summary>
 
 > Travis Jeffrey. Distributed Services with Go: Your Guide to Reliable, Scalable, and Maintainable Systems
 
@@ -200,17 +148,10 @@
 
 ---
 
-## applied fields
-
-### financial engineering
+## financial engineering
 
 <details>
-<summary>contents</summary>
-
-</details>
-
-<details>
-<summary>reference</summary>
+<summary>references</summary>
 
 </details>
 
