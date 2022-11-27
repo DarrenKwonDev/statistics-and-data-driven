@@ -167,6 +167,7 @@
 
 즉, data-driven 이전에 문서 위주의 문화를 조성해야 한다는 생각입니다.
 
+[digital gardening?](https://github.com/MaggieAppleton/digital-gardeners)  
 [바로가기](./ch06-doc-culture/README.md)
 
 ---
