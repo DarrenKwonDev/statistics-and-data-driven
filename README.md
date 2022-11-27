@@ -56,7 +56,7 @@
 
 ### 07 엔트로피
 
-<details>
+<details open>
 <summary>references</summary>
 
 > 김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.  
@@ -78,7 +78,7 @@
 
 ### 05 유의성 검정
 
-<details>
+<details open>
 
 <summary>references</summary>
 
@@ -89,14 +89,14 @@
 
 ## bayesian statistics
 
-<details>
+<details open>
 <summary>references</summary>
 
 </details>
 
 ## controlled experiments
 
-<details>
+<details open>
 <summary>references</summary>
 
 > Kohavi, Ron, Alex Deng, Brian Frasca, Roger Longbotham, Toby Walker, and Ya Xu. "Trustworthy Online Controlled Experiments."
@@ -105,7 +105,7 @@
 
 ## machine learning
 
-<details>
+<details open>
 <summary>references</summary>
 
 </details>
@@ -114,7 +114,7 @@
 
 ## database internal
 
-<details>
+<details open>
 <summary>references</summary>
 
 > Petrov, 이우현, and 이태휘. 데이터베이스 인터널스 : 분산 데이터베이스 시스템 심층 분석 / 알렉스 페트로프 지음 ; 이우현 옮김 (2021). Print.
@@ -123,7 +123,7 @@
 
 ## RDBMS design & relationship theory
 
-<details>
+<details open>
 <summary>references</summary>
 
 > Date, 이기홍, and 곽승주. 데이터베이스 설계와 관계형 이론 : 정규화와 탈정규화를 중심으로 / C. J. 데이트 지음 ; 이기홍, 곽승주 옮김 (2021). Print.
@@ -132,14 +132,14 @@
 
 ## general data engineering & self-service
 
-<details>
+<details open>
 <summary>references</summary>
 
 </details>
 
 ## distribution computing
 
-<details>
+<details open>
 <summary>references</summary>
 
 > Travis Jeffrey. Distributed Services with Go: Your Guide to Reliable, Scalable, and Maintainable Systems
@@ -150,7 +150,7 @@
 
 ## financial engineering
 
-<details>
+<details open>
 <summary>references</summary>
 
 </details>
