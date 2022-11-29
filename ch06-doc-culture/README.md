@@ -9,6 +9,11 @@
     - [셀프 데이터 서비스와 문서의 연결](#셀프-데이터-서비스와-문서의-연결)
   - [doc make tech](#doc-make-tech)
     - [doc system research](#doc-system-research)
+      - [large size doc systems](#large-size-doc-systems)
+      - [static site generator(SSG) 적극 활용 권장](#static-site-generatorssg-적극-활용-권장)
+      - [code-interactive](#code-interactive)
+      - [code sandbox](#code-sandbox)
+    - [how to deal with biblio](#how-to-deal-with-biblio)
     - [doc parse, processing](#doc-parse-processing)
 
 <!-- code_chunk_output -->
@@ -66,7 +71,39 @@
 
 ### doc system research
 
-[clike me](tech.md)
+#### large size doc systems
+
+[TC39](https://github.com/tc39)
+
+#### static site generator(SSG) 적극 활용 권장
+
+[hugo](https://gohugo.io/)  
+[nextra(experimental)](https://nextra.vercel.app/)
+
+학습은 불가피함. build 속도가 제일 빠른 hugo를 권장함.
+
+#### code-interactive
+
+highly interactive doc is similar to programming learn sites, like [exercism](https://exercism.org/) or [datacamp](https://www.datacamp.com/)
+
+[MDN](https://github.com/mdn/mdn)
+
+- 출력물이 콘솔에 출력되는 것으로 보아 사용자의 브라우저 런타임에서 실행되는 것 같다.
+
+[edge db tutorial](https://www.edgedb.com/tutorial)
+
+- code-interactive should use its interpreter or at least its parser
+
+#### code sandbox
+
+https://blog.pronus.io/en/posts/programe-pelo-navegador-com-code-lab/
+
+### how to deal with biblio
+
+markdown에서 지원을 안 한다. script를 짜거나, 지원하는 포맷을 써야 한다.
+
+- use pandoc
+- https://github.com/parksb/handmade-blog
 
 ### doc parse, processing
 
