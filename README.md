@@ -30,6 +30,7 @@
     - [disclaimer](#disclaimer)
     - [highschool math](#highschool-math)
     - [pre-commit hook](#pre-commit-hook)
+    - [ref](#ref)
     - [glossary](#glossary)
 
 <!-- /code_chunk_output -->
@@ -193,5 +194,9 @@ no typing
 pre-commit install
 pre-commit run --all-files # in case you want to run it on all files
 ```
+
+### ref
+
+> http://norman3.github.io/prml/docs/chapter02/3_1
 
 ### glossary
