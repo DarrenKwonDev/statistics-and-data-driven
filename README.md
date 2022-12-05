@@ -1,3 +1,5 @@
+![logo](./images/logo.svg)
+
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
@@ -27,6 +29,7 @@
   - [RDBMS](#rdbms)
     - [RDBMS Modeling](#rdbms-modeling)
     - [SQL](#sql)
+  - [scalability](#scalability)
   - [distribution computing](#distribution-computing)
   - [financial engineering](#financial-engineering)
   - [doc-culture](#doc-culture)
@@ -144,12 +147,21 @@
 
 </details>
 
-## distribution computing
+## scalability
 
 <details open>
 <summary>references</summary>
 
 > Travis Jeffrey. Distributed Services with Go: Your Guide to Reliable, Scalable, and Maintainable Systems
+
+</details>
+
+## distribution computing
+
+<details open>
+<summary>references</summary>
+
+> https://github.com/binhnguyennus/awesome-scalability
 
 </details>
 
