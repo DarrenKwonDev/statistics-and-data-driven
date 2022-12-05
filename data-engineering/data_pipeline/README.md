@@ -23,6 +23,8 @@ data pipeline이라는 것은 A에서 데이터를 이동시키되 데이터를 
 1. `Movement`  
    streaming(real time), batch, micro batching(near real time)
    processing 방법에 따라 downstream 인프라와 코드 설계에 큰 영향을 미치기 때문에 신중해야 한다.
+   - 높은 velocity에 data size가 작은 경우 streaming이 적합하다. (Kafka, Pulsar, Spark streaming)
+   - 그 외의 일반적인 경우 batch processing이 적합하다.
 2. `Storage & File Types`  
    스토리지와 저장하고자 하는 파일의 형식은 시간과 비용에 영향을 준다. 단순히 쉬운 형식이라고 JSON으로 데이터를 저장했다가, 데이터의 양이 증가하면서 그것을 처리하고자 치루는 비용이 훨씬 커지는 경우가 있다.
 3. `Access`  
