@@ -24,7 +24,7 @@
   - [RDBMS design \& relationship theory](#rdbms-design--relationship-theory)
     - [RDBMS Modeling](#rdbms-modeling)
     - [SQL](#sql)
-  - [general data engineering \& self-service](#general-data-engineering--self-service)
+  - [general data engineering](#general-data-engineering)
     - [data pipeline](#data-pipeline)
     - [storage](#storage)
   - [distribution computing](#distribution-computing)
@@ -42,8 +42,6 @@
 # statistics-and-data-driven
 
 데이터 관련 직군 현업자들과 함께한 스터디 + 문서 주도 문화를 도입하기 위한 시도와 그 기록
-
----
 
 ## basic math
 
@@ -115,8 +113,6 @@
 
 </details>
 
----
-
 ## database internal
 
 <details open>
@@ -135,12 +131,12 @@
 <details open>
 <summary>references</summary>
 
-> Introduction to Data Engineering / Daniel Beach (2022)
+> Introduction to Data Engineering / Daniel Beach (2022)  
 > 이기홍, and 곽승주. 데이터베이스 설계와 관계형 이론 : 정규화와 탈정규화를 중심으로 / C. J. 데이트 지음 ; 이기홍, 곽승주 옮김 (2021). Print.
 
 </details>
 
-## general data engineering & self-service
+## general data engineering
 
 ### [data pipeline](data-engineering/data_pipeline/README.md)
 
@@ -149,7 +145,7 @@
 <details open>
 <summary>references</summary>
 
-> Densmore, James. Data Pipelines Pocket Reference : Moving and Processing Data for Analytics / James Densmore. 1st ed. 2021. Web.
+> Densmore, James. Data Pipelines Pocket Reference : Moving and Processing Data for Analytics / James Densmore. 1st ed. 2021. Web.  
 > Introduction to Data Engineering / Daniel Beach (2022)
 
 </details>
@@ -163,16 +159,12 @@
 
 </details>
 
----
-
 ## financial engineering
 
 <details open>
 <summary>references</summary>
 
 </details>
-
----
 
 ## doc-culture
 
@@ -186,8 +178,6 @@
 
 [digital gardening?](https://github.com/MaggieAppleton/digital-gardeners)  
 [바로가기](./ch06-doc-culture/README.md)
-
----
 
 ## etc
 
