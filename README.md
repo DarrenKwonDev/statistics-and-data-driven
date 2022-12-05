@@ -23,9 +23,9 @@
   - [database internal](#database-internal)
   - [RDBMS design \& relationship theory](#rdbms-design--relationship-theory)
     - [RDBMS Modeling](#rdbms-modeling)
+    - [SQL](#sql)
   - [general data engineering \& self-service](#general-data-engineering--self-service)
     - [data pipeline](#data-pipeline)
-    - [SQL](#sql)
   - [distribution computing](#distribution-computing)
   - [financial engineering](#financial-engineering)
   - [doc-culture](#doc-culture)
@@ -129,6 +129,8 @@
 
 ### RDBMS Modeling
 
+### SQL
+
 <details open>
 <summary>references</summary>
 
@@ -139,13 +141,12 @@
 
 ## general data engineering & self-service
 
-### data pipeline
-
-### SQL
+### [data pipeline](data-engineering/data_pipeline/README.md)
 
 <details open>
 <summary>references</summary>
 
+> Densmore, James. Data Pipelines Pocket Reference : Moving and Processing Data for Analytics / James Densmore. 1st ed. 2021. Web.
 > Introduction to Data Engineering / Daniel Beach (2022)
 
 </details>
