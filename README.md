@@ -20,13 +20,13 @@
   - [bayesian statistics](#bayesian-statistics)
   - [controlled experiments](#controlled-experiments)
   - [machine learning](#machine-learning)
-  - [database internal](#database-internal)
-  - [RDBMS](#rdbms)
-    - [RDBMS Modeling](#rdbms-modeling)
-    - [SQL](#sql)
   - [general data engineering](#general-data-engineering)
     - [data pipeline](#data-pipeline)
     - [storage](#storage)
+    - [database internal](#database-internal)
+  - [RDBMS](#rdbms)
+    - [RDBMS Modeling](#rdbms-modeling)
+    - [SQL](#sql)
   - [distribution computing](#distribution-computing)
   - [financial engineering](#financial-engineering)
   - [doc-culture](#doc-culture)
@@ -113,11 +113,19 @@
 
 </details>
 
-## database internal
+## general data engineering
+
+### [data pipeline](data-engineering/data_pipeline/README.md)
+
+### [storage](data-engineering/storage/README.md)
+
+### database internal
 
 <details open>
 <summary>references</summary>
 
+> Densmore, James. Data Pipelines Pocket Reference : Moving and Processing Data for Analytics / James Densmore. 1st ed. 2021. Web.  
+> Introduction to Data Engineering / Daniel Beach (2022)  
 > Petrov, 이우현, and 이태휘. 데이터베이스 인터널스 : 분산 데이터베이스 시스템 심층 분석 / 알렉스 페트로프 지음 ; 이우현 옮김 (2021). Print.
 
 </details>
@@ -133,20 +141,6 @@
 
 > Introduction to Data Engineering / Daniel Beach (2022)  
 > 이기홍, and 곽승주. 데이터베이스 설계와 관계형 이론 : 정규화와 탈정규화를 중심으로 / C. J. 데이트 지음 ; 이기홍, 곽승주 옮김 (2021). Print.
-
-</details>
-
-## general data engineering
-
-### [data pipeline](data-engineering/data_pipeline/README.md)
-
-### [storage](data-engineering/storage/README.md)
-
-<details open>
-<summary>references</summary>
-
-> Densmore, James. Data Pipelines Pocket Reference : Moving and Processing Data for Analytics / James Densmore. 1st ed. 2021. Web.  
-> Introduction to Data Engineering / Daniel Beach (2022)
 
 </details>
 
