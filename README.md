@@ -26,6 +26,7 @@
     - [SQL](#sql)
   - [general data engineering \& self-service](#general-data-engineering--self-service)
     - [data pipeline](#data-pipeline)
+    - [storage](#storage)
   - [distribution computing](#distribution-computing)
   - [financial engineering](#financial-engineering)
   - [doc-culture](#doc-culture)
@@ -142,6 +143,8 @@
 ## general data engineering & self-service
 
 ### [data pipeline](data-engineering/data_pipeline/README.md)
+
+### [storage](data-engineering/storage/README.md)
 
 <details open>
 <summary>references</summary>

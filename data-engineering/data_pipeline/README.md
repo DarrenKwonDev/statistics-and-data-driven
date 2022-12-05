@@ -4,7 +4,11 @@
 - [data pipeline principles](#data-pipeline-principles)
   - [6 concepts of data pipeline](#6-concepts-of-data-pipeline)
 - [pipeline architecture 고려사항](#pipeline-architecture-고려사항)
-- [storage](#storage)
+  - [`Calculating data size and velocity`](#calculating-data-size-and-velocity)
+  - [`Calculating compute/storage requirements based on data size`](#calculating-computestorage-requirements-based-on-data-size)
+  - [`Understanding the end result`](#understanding-the-end-result)
+  - [`Complexity vs simplicity tradeoffs`](#complexity-vs-simplicity-tradeoffs)
+  - [`Understanding cost`](#understanding-cost)
 - [etc](#etc)
 
 <!-- /code_chunk_output -->
@@ -48,40 +52,40 @@ data pipeline이라는 것은 A에서 데이터를 이동시키되 데이터를 
   - 내가 생각하는 결과가 아니라 요구한 사람의 final expectations을 이해해야 한다.
   - final expectations에 기반하여 다음과 같은 사항을 고려한다.
 
-1. `Calculating data size and velocity`
+### `Calculating data size and velocity`
 
-   - data size
-     - KB 수준의 json이 하루에 자잘하게 온다면 streaming 방식이 적합할 것이고, GB 수준의 CSV가 하루에 1번 온다면 배칭이 적합한 방식일 것이다. 생성되는 데이터의 포맷과 양에 기반하여 기술을 고려한다.
-   - velocity(amount of incoming data)
-     - 데이터가 들어오는 빈도가 어떠한지 고려한다. 하루에 한 두번 들어오는 수준이면 별다른 조치가 필요 없을 것이나 유저 행동 로그와 같은 데이터는 velocity가 높은 것으로 예상되어 compaction이나 aggregation 단계가 필요할 것이다.
+- data size
+  - KB 수준의 json이 하루에 자잘하게 온다면 streaming 방식이 적합할 것이고, GB 수준의 CSV가 하루에 1번 온다면 배칭이 적합한 방식일 것이다. 생성되는 데이터의 포맷과 양에 기반하여 기술을 고려한다.
+- velocity(amount of incoming data)
+  - 데이터가 들어오는 빈도가 어떠한지 고려한다. 하루에 한 두번 들어오는 수준이면 별다른 조치가 필요 없을 것이나 유저 행동 로그와 같은 데이터는 velocity가 높은 것으로 예상되어 compaction이나 aggregation 단계가 필요할 것이다.
 
-2. `Calculating compute/storage requirements based on data size`
+### `Calculating compute/storage requirements based on data size`
 
-   - Calculating Compute Requirements
-     - 컴퓨팅 리소스가 얼마나 필요한지 Back Of The Envelope Calculation을 해야 한다.
-     - Resource Requirement = (processing unit size x (number of CPU + RAM)) x number of batches
-   - Understanding the end result
-     - 용량 x 저장 기간 x 저장 방식(compression으로 용량 일부 절약)에 따라 저장소의 용량이 결정된다.
+- Calculating Compute Requirements
+  - 컴퓨팅 리소스가 얼마나 필요한지 Back Of The Envelope Calculation을 해야 한다.
+  - Resource Requirement = (processing unit size x (number of CPU + RAM)) x number of batches
+- Understanding the end result
+  - 용량 x 저장 기간 x 저장 방식(compression으로 용량 일부 절약)에 따라 저장소의 용량이 결정된다.
 
-3. `Understanding the end result`
+### `Understanding the end result`
 
-4. `Complexity vs simplicity tradeoffs`
+- 큰 그림을 잘 그리라는 것
 
-   - Too complex and the pipeline will be unmanageable
-   - Too simple and the pipeline won’t scale
-   - 이 아키텍처를 가용 가능한 인적, 물적 리소스로 유지할 수 있는가? 개발자는 보통 새로운 기술에 끌리기 마련이므로 이를 자제할 필요가 있다.
+### `Complexity vs simplicity tradeoffs`
 
-5. `Understanding cost`
+- Too complex and the pipeline will be unmanageable
+- Too simple and the pipeline won’t scale
+- 이 아키텍처를 가용 가능한 인적, 물적 리소스로 유지할 수 있는가? 개발자는 보통 새로운 기술에 끌리기 마련이므로 이를 자제할 필요가 있다.
 
-   - 비용 절감
+### `Understanding cost`
 
-6. 일반 소프트웨어 개발에 적용되는 각종 원칙들(OOP, function approach, etc) 또한 적용될 수 있음.
+- 비용 절감
+
+일반 소프트웨어 개발에 적용되는 각종 원칙들(OOP, function approach, etc) 또한 적용될 수 있음.
 
 위의 결정 사항들은 상황에 따라 언제든지 변경될 수 있고, 히스토리를 남겨야 현재 시스템이 만들어진 이유를 알 수 있기 때문에 [architecture decision record(ADR)](https://github.com/joelparkerhenderson/architecture-decision-record) 문서화를 꼭 해두어야 한다.
 
 추가로, [람다 아키텍처 카파 아키텍처](https://towardsdatascience.com/a-brief-introduction-to-two-data-processing-architectures-lambda-and-kappa-for-big-data-4f35c28005bb)에 대해 공부해두자
-
-## storage
 
 ## etc
 
