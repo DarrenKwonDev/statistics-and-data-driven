@@ -21,7 +21,7 @@
   - [controlled experiments](#controlled-experiments)
   - [machine learning](#machine-learning)
   - [database internal](#database-internal)
-  - [RDBMS design \& relationship theory](#rdbms-design--relationship-theory)
+  - [RDBMS](#rdbms)
     - [RDBMS Modeling](#rdbms-modeling)
     - [SQL](#sql)
   - [general data engineering](#general-data-engineering)
@@ -122,7 +122,7 @@
 
 </details>
 
-## RDBMS design & relationship theory
+## RDBMS
 
 ### RDBMS Modeling
 
