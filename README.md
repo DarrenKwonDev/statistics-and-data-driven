@@ -41,7 +41,7 @@
 
 # statistics-and-data-driven
 
-데이터 관련 직군 현업자들과 함께한 스터디 + 문서 주도 문화를 도입하기 위한 시도와 그 기록
+데이터 관련 직군 현업자들과 함께한 스터디 정리 및 개인 공부 내용을 정리
 
 ## basic math
 
@@ -145,7 +145,7 @@
 <details open>
 <summary>references</summary>
 
-> Travis Jeffrey. Distributed Services with Go: Your Guide to Reliable, Scalable, and Maintainable Systems
+> https://github.com/binhnguyennus/awesome-scalability
 
 </details>
 
@@ -154,7 +154,7 @@
 <details open>
 <summary>references</summary>
 
-> https://github.com/binhnguyennus/awesome-scalability
+> Travis Jeffrey. Distributed Services with Go: Your Guide to Reliable, Scalable, and Maintainable Systems
 
 </details>
 
@@ -175,7 +175,7 @@
 
 즉, data-driven 이전에 문서 위주의 문화를 조성해야 한다는 생각입니다.
 
-[digital gardening?](https://github.com/MaggieAppleton/digital-gardeners)  
+[digital gardening](https://github.com/MaggieAppleton/digital-gardeners)  
 [바로가기](./ch06-doc-culture/README.md)
 
 ## etc
