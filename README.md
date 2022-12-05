@@ -22,7 +22,10 @@
   - [machine learning](#machine-learning)
   - [database internal](#database-internal)
   - [RDBMS design \& relationship theory](#rdbms-design--relationship-theory)
+    - [RDBMS Modeling](#rdbms-modeling)
   - [general data engineering \& self-service](#general-data-engineering--self-service)
+    - [data pipeline](#data-pipeline)
+    - [SQL](#sql)
   - [distribution computing](#distribution-computing)
   - [financial engineering](#financial-engineering)
   - [doc-culture](#doc-culture)
@@ -124,17 +127,26 @@
 
 ## RDBMS design & relationship theory
 
+### RDBMS Modeling
+
 <details open>
 <summary>references</summary>
 
-> Date, 이기홍, and 곽승주. 데이터베이스 설계와 관계형 이론 : 정규화와 탈정규화를 중심으로 / C. J. 데이트 지음 ; 이기홍, 곽승주 옮김 (2021). Print.
+> Introduction to Data Engineering / Daniel Beach (2022)
+> 이기홍, and 곽승주. 데이터베이스 설계와 관계형 이론 : 정규화와 탈정규화를 중심으로 / C. J. 데이트 지음 ; 이기홍, 곽승주 옮김 (2021). Print.
 
 </details>
 
 ## general data engineering & self-service
 
+### data pipeline
+
+### SQL
+
 <details open>
 <summary>references</summary>
+
+> Introduction to Data Engineering / Daniel Beach (2022)
 
 </details>
 
