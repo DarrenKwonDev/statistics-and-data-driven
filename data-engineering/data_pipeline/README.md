@@ -81,13 +81,13 @@ data pipeline이라는 것은 A에서 데이터를 이동시키되 데이터를 
 
 - 비용 절감
 
-일반 소프트웨어 개발에 적용되는 각종 원칙들(OOP, function approach, etc) 또한 적용될 수 있음.
+## etc
+
+일반 소프트웨어 개발에 적용되는 각종 원칙들(OOP, function approach, clean code, DRY, etc) 또한 적용될 수 있음.
 
 위의 결정 사항들은 상황에 따라 언제든지 변경될 수 있고, 히스토리를 남겨야 현재 시스템이 만들어진 이유를 알 수 있기 때문에 [architecture decision record(ADR)](https://github.com/joelparkerhenderson/architecture-decision-record) 문서화를 꼭 해두어야 한다.
 
 추가로, [람다 아키텍처 카파 아키텍처](https://towardsdatascience.com/a-brief-introduction-to-two-data-processing-architectures-lambda-and-kappa-for-big-data-4f35c28005bb)에 대해 공부해두자
-
-## etc
 
 - data pipeline도 테스트를 짜야한다.
 - Diving into writing code right away without working through the architecture first is a big mistake
