@@ -6,13 +6,10 @@
 
 - [statistics-and-data-driven](#statistics-and-data-driven)
   - [basic math](#basic-math)
-    - [01 numpy와 선형대수](#01-numpy와-선형대수)
-    - [02 sympy와 미적분](#02-sympy와-미적분)
-    - [03 scipy와 Optimization Problem](#03-scipy와-optimization-problem)
-    - [04 확률변수와 상관관계](#04-확률변수와-상관관계)
-    - [05 확률 분포](#05-확률-분포)
-    - [06 추정과 검정](#06-추정과-검정)
-    - [07 엔트로피](#07-엔트로피)
+    - [선형대수](#선형대수)
+    - [미적분](#미적분)
+    - [Optimization Problem](#optimization-problem)
+    - [엔트로피](#엔트로피)
   - [basic statistics](#basic-statistics)
     - [01 자료의 정리](#01-자료의-정리)
     - [02 상관관계와 회귀 분석](#02-상관관계와-회귀-분석)
@@ -48,19 +45,13 @@
 
 ## basic math
 
-### 01 numpy와 선형대수
+### 선형대수
 
-### 02 sympy와 미적분
+### 미적분
 
-### 03 scipy와 Optimization Problem
+### Optimization Problem
 
-### 04 확률변수와 상관관계
-
-### 05 확률 분포
-
-### 06 추정과 검정
-
-### 07 엔트로피
+### 엔트로피
 
 <details open>
 <summary>references</summary>
@@ -68,7 +59,9 @@
 > 김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.  
 > Hiraoka, Hori, 이창신, and Hori, Gen. 프로그래머를 위한 선형대수 = Linear Algebra for Programmer / 히라오카 카즈유키, 호리 겐 [공]지음 ; 이창신 옮김 (2017). Print.  
 > Nagano, and 장진희. 다시 미분 적분 = Try Again, Calculas! / 나가노 히로유키 지음 ; 장진희 옮김 (2019). Print.  
-> Nakai, and 이기홍. 프로그래머를 위한 기초 해석학 = Basic Analysis for Programmers / 나카이 에츠지 지음 ; 이기홍 옮김 (2018). Print.
+> Nakai, and 이기홍. 프로그래머를 위한 기초 해석학 = Basic Analysis for Programmers / 나카이 에츠지 지음 ; 이기홍 옮김 (2018). Print.  
+> https://sites.google.com/mensakorea.org/math/%EC%B7%A8%EB%AF%B8%EB%A1%9C-%EC%88%98%ED%95%99%ED%95%98%EC%9E%90?authuser=0  
+> https://dlsun.github.io/probability/
 
 </details>
 
