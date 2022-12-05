@@ -75,7 +75,7 @@
 
 ### [03 확률과 변동성](./ch01-basic-statistics/03_확률과_변동성/README.md)
 
-### 04 표본추출
+### [04 표본추출](./ch01-basic-statistics/04_표본추출/README.md)
 
 ### 05 유의성 검정
 

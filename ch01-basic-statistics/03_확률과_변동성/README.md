@@ -121,13 +121,13 @@ $$
 
 ### 배반 -> 독립, 독립 -> 배반 두 명제 모두 거짓
 
-독립사건과 배반사건은 서로 전혀 연관이 없는 개념이다.  
+독립사건과 배반사건은 서로 전혀 연관이 없는 개념이다.
+
 교집합이 있을 때(사건이 배반이 아니더라도) 사건들은 상호 독립적일 수 있다. 잘 생각해보면 상식적인 것이다. 주사위 짝수일 확률이 주사위 눈이 3이상일 확률과 무슨 상관이 있는가? 예시로 이해해보자면 https://kenadams.tistory.com/38 참고
 따라서 `독립 -> 배반` 명제는 거짓이다.
 
 또한 `배반 -> 독립`도 거짓이다. 배반 사건이라면 $P(A) \cap P(B) = 0$ 인데 독립을 증명하기 위한 공식인 $P(A \cap B) = P(A)P(B)$ 가 애초에 0이 되어버림. 독립 사건의 전제 조건은 적어도 각 A, B에 대한 확률이 0은 아니어야 함.
-따라서 `배반 -> 독립` 명제는 거짓이다.  
-예시로 이해해보려면 https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=parkhc1992&logNo=220587985603 참고
+따라서 `배반 -> 독립` 명제는 거짓이다. 예시로 이해해보려면 https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=parkhc1992&logNo=220587985603 참고
 
 ## 02 binomial formula (이항공식)
 
