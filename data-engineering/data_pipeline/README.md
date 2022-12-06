@@ -6,7 +6,11 @@
 - [pipeline architecture 고려사항](#pipeline-architecture-고려사항)
   - [`Calculating data size and velocity`](#calculating-data-size-and-velocity)
   - [`Calculating compute/storage requirements based on data size`](#calculating-computestorage-requirements-based-on-data-size)
-    - [Compute and Resources](#compute-and-resources)
+    - [latency, cost numbers](#latency-cost-numbers)
+    - [RAM](#ram)
+    - [CPU](#cpu)
+    - [storage](#storage)
+    - [cluster, node, pod, etc...](#cluster-node-pod-etc)
   - [`Understanding the end result`](#understanding-the-end-result)
   - [`Complexity vs simplicity tradeoffs`](#complexity-vs-simplicity-tradeoffs)
   - [`Understanding cost`](#understanding-cost)
@@ -63,16 +67,50 @@ data pipeline이라는 것은 A에서 데이터를 이동시키되 데이터를 
 
 ### `Calculating compute/storage requirements based on data size`
 
+보통 이 문제를 해결하게 위해서는 CS 일반에 대한 지식과 리눅스 경험이 요구된다.
+
 - Calculating Compute Requirements
   - OOM 문제와 퍼포먼스 이슈를 방지하기 위해 필요한 리소스를 계산해야 한다.
   - 컴퓨팅 리소스가 얼마나 필요한지 Back Of The Envelope Calculation을 해야 한다.
   - Resource Requirement = (processing unit size x (number of CPU + RAM)) x number of batches
+  - <ins>가용 가능한 자원의 usage를 최대한으로 활용해야 한다.</ins> cpu usage가 peak을 쳤을 때도 2% 정도에서만 머문다면 비싼 인스턴스를 쓸 이유가 없다.
 - Understanding the end result
   - 용량 x 저장 기간 x 저장 방식(compression으로 용량 일부 절약)에 따라 저장소의 용량이 결정된다.
 
-#### Compute and Resources
+#### latency, cost numbers
 
-우리는 하드웨어의 한계에 매여있다. 파이프라인의 런타임에 영향을 주고, 다룰 수 있는 data size를 결정하며 소요되는 자본도 결정된다.
+- https://gist.github.com/jboner/2841832
+- https://colin-scott.github.io/personal_website/research/interactive_latency.html
+- https://github.com/sirupsen/napkin-math
+
+#### RAM
+
+- in memory 연산으로 처리하고 끝내면 되는데 불필요하게 disk에 읽고 쓰는 작업은 없나?
+  - 물론 in memory 연산이 빠르지만 잘못하면 OOM 에러를 만나게 된다. 가용 가능한 정도를 계산에 두고 있어야
+  - 현재 인스턴스에서 메모리가 얼마나 되지?
+  - os를 구동하기 위한 메모리를 제외하고 정말로 사용할 수 있는 메모리가 얼마나 되지?
+  - peak를 칠 때 얼마나 메모리를 써야 하지? 인스턴스 한계를 넘는다면 어떻게 대응하지?
+  - 기존 data의 양에 기반하여 memory 소비량을 계산할 수 있나? 해봐야지
+- 기존 코드에서 불필요하게 메모리를 많이 잡아 먹는 부분은 없나?
+  - memory leak이 발생하는 부분은 없나?
+  - clean up이 안되는 부분은 없나?
+
+#### CPU
+
+- 가급적 multi-threading, multi-processing 처리를 하라
+- 노는 core가 있지 않은가?
+
+#### storage
+
+- 대부분 cloud 기반으로 넘어가 size에는 신경을 덜 쓴다
+  - azure blob, aws s3, gcp gcs, etc...
+- Reading and writing directly to cloud storage is best but creates network bottlenecks.
+  - network io도 io긴 하다
+
+#### cluster, node, pod, etc...
+
+- 어떤 시스템을 사용하건 띄우는 인스턴스의 갯수를 늘려서 처리할 수 있다.
+- 인스턴스당 처리량을 어림잡아 계산하고 기억해두자
 
 ### `Understanding the end result`
 
