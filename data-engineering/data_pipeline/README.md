@@ -6,6 +6,7 @@
 - [pipeline architecture 고려사항](#pipeline-architecture-고려사항)
   - [`Calculating data size and velocity`](#calculating-data-size-and-velocity)
   - [`Calculating compute/storage requirements based on data size`](#calculating-computestorage-requirements-based-on-data-size)
+    - [Compute and Resources](#compute-and-resources)
   - [`Understanding the end result`](#understanding-the-end-result)
   - [`Complexity vs simplicity tradeoffs`](#complexity-vs-simplicity-tradeoffs)
   - [`Understanding cost`](#understanding-cost)
@@ -55,18 +56,23 @@ data pipeline이라는 것은 A에서 데이터를 이동시키되 데이터를 
 
 ### `Calculating data size and velocity`
 
-- data size
+- `data size`
   - KB 수준의 json이 하루에 자잘하게 온다면 streaming 방식이 적합할 것이고, GB 수준의 CSV가 하루에 1번 온다면 배칭이 적합한 방식일 것이다. 생성되는 데이터의 포맷과 양에 기반하여 기술을 고려한다.
-- velocity(amount of incoming data)
+- `velocity`(amount of incoming data)
   - 데이터가 들어오는 빈도가 어떠한지 고려한다. 하루에 한 두번 들어오는 수준이면 별다른 조치가 필요 없을 것이나 유저 행동 로그와 같은 데이터는 velocity가 높은 것으로 예상되어 compaction이나 aggregation 단계가 필요할 것이다.
 
 ### `Calculating compute/storage requirements based on data size`
 
 - Calculating Compute Requirements
+  - OOM 문제와 퍼포먼스 이슈를 방지하기 위해 필요한 리소스를 계산해야 한다.
   - 컴퓨팅 리소스가 얼마나 필요한지 Back Of The Envelope Calculation을 해야 한다.
   - Resource Requirement = (processing unit size x (number of CPU + RAM)) x number of batches
 - Understanding the end result
   - 용량 x 저장 기간 x 저장 방식(compression으로 용량 일부 절약)에 따라 저장소의 용량이 결정된다.
+
+#### Compute and Resources
+
+우리는 하드웨어의 한계에 매여있다. 파이프라인의 런타임에 영향을 주고, 다룰 수 있는 data size를 결정하며 소요되는 자본도 결정된다.
 
 ### `Understanding the end result`
 

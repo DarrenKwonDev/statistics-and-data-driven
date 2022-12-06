@@ -3,25 +3,47 @@
 ![logo](./images/logo.svg)
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
 <!-- code_chunk_output -->
 
+- [math](#math)
+  - [basic math](#basic-math)
+    - [선형대수](#선형대수)
+    - [미적분](#미적분)
+    - [Optimization Problem](#optimization-problem)
+    - [엔트로피](#엔트로피)
+  - [basic statistics](#basic-statistics)
+    - [01 자료의 정리](#01-자료의-정리)
+    - [02 상관관계와 회귀 분석](#02-상관관계와-회귀-분석)
+    - [03 확률과 변동성](#03-확률과-변동성)
+    - [04 표본추출](#04-표본추출)
+    - [05 유의성 검정](#05-유의성-검정)
+  - [bayesian statistics](#bayesian-statistics)
+  - [controlled experiments](#controlled-experiments)
+  - [machine learning](#machine-learning)
+- [engineering](#engineering)
+  - [general data engineering](#general-data-engineering)
+    - [data pipeline](#data-pipeline)
+    - [storage and file types](#storage-and-file-types)
+    - [database internal](#database-internal)
+  - [RDBMS](#rdbms)
+    - [RDBMS Modeling](#rdbms-modeling)
+    - [SQL](#sql)
+  - [scalability](#scalability)
+  - [distribution computing](#distribution-computing)
 - [applied](#applied)
   - [product growth strategies](#product-growth-strategies)
   - [financial engineering](#financial-engineering)
   - [doc-culture](#doc-culture)
-  - [etc](#etc)
+- [etc](#etc)
     - [disclaimer](#disclaimer)
     - [highschool math](#highschool-math)
     - [pre-commit hook](#pre-commit-hook)
     - [ref](#ref)
     - [glossary](#glossary)
 
-<!-- /code_chunk_output -->
-
-데이터 관련 직군 현업자들과 함께한 스터디 정리 및 개인 공부 내용을 정리
-
 ![math](./images/math.svg)
+
+# math
 
 ## basic math
 
@@ -91,6 +113,8 @@
 
 ![engineering](./images/engineering.svg)
 
+# engineering
+
 ## general data engineering
 
 ### [data pipeline](data-engineering/data_pipeline/README.md)
@@ -142,6 +166,8 @@
 
 ![applied](./images/applied.svg)
 
+# applied
+
 ## product growth strategies
 
 <details open>
@@ -171,7 +197,7 @@
 [digital gardening](https://github.com/MaggieAppleton/digital-gardeners)  
 [바로가기](./ch06-doc-culture/README.md)
 
-## etc
+# etc
 
 <details>
 <summary>etc</summary>
