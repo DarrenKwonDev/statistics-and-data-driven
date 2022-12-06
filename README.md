@@ -12,11 +12,11 @@
     - [Optimization Problem](#optimization-problem)
     - [엔트로피](#엔트로피)
   - [basic statistics](#basic-statistics)
-    - [01 자료의 정리](#01-자료의-정리)
-    - [02 상관관계와 회귀 분석](#02-상관관계와-회귀-분석)
-    - [03 확률과 변동성](#03-확률과-변동성)
-    - [04 표본추출](#04-표본추출)
-    - [05 유의성 검정](#05-유의성-검정)
+    - [자료의 정리](#자료의-정리)
+    - [상관관계와 회귀 분석](#상관관계와-회귀-분석)
+    - [확률과 변동성](#확률과-변동성)
+    - [표본추출](#표본추출)
+    - [유의성 검정](#유의성-검정)
   - [bayesian statistics](#bayesian-statistics)
   - [controlled experiments](#controlled-experiments)
   - [machine learning](#machine-learning)
@@ -69,15 +69,15 @@
 
 ## basic statistics
 
-### [01 자료의 정리](./ch01-basic-statistics/01_자료의_정리/README.md)
+### [자료의 정리](./ch01-basic-statistics/01_자료의_정리/README.md)
 
-### [02 상관관계와 회귀 분석](./ch01-basic-statistics/02_상관관계와_회귀분석/README.md)
+### [상관관계와 회귀 분석](./ch01-basic-statistics/02_상관관계와_회귀분석/README.md)
 
-### [03 확률과 변동성](./ch01-basic-statistics/03_확률과_변동성/README.md)
+### [확률과 변동성](./ch01-basic-statistics/03_확률과_변동성/README.md)
 
-### [04 표본추출](./ch01-basic-statistics/04_표본추출/README.md)
+### [표본추출](./ch01-basic-statistics/04_표본추출/README.md)
 
-### 05 유의성 검정
+### 유의성 검정
 
 <details open>
 
