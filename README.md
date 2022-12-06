@@ -134,7 +134,7 @@
 
 ## RDBMS
 
-### RDBMS Modeling
+### [RDBMS Modeling](rdbms/rdbms/README.md)
 
 ### SQL
 

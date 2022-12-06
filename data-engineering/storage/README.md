@@ -28,13 +28,13 @@
 - 행 기반 스토리지
 
   - 일반 RDBMS
-  - OLTP, online transaction processing (온라인 트랜잭션, insert, update, delete)
+  - OLTP, online transaction processing (온라인 트랜잭션, insert, update, delete)에 주로 사용
   - 서비스를 위한 DB
   - 쿼리 → 적은 양의 데이터를 가져오고 변형하는 일이 잦다.
 
 - 열 기반 스토리지
   - snowflake, big query, redshift
-  - OLAP, online analytical processing. (select, computation)
+  - OLAP, online analytical processing. (select, computation)에 주로 사용
     - [참고) Luft: 유저 행동 분석에 최적화된 OLAP 데이터베이스](https://engineering.ab180.co/stories/introducing-luft)
   - 사용자의 의사결정에 도움을 주는 것으로 데이터 분석, 데이터 마이닝에 주로 사용된다.
   - 분석 → 많은 양의 데이터를 가져오고 그걸 활용하지, 여러번 요청하지 않는다.
