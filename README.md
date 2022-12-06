@@ -1,3 +1,5 @@
+## 🚨 this document is in progress
+
 ![logo](./images/logo.svg)
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
@@ -21,7 +23,7 @@
   - [machine learning](#machine-learning)
   - [general data engineering](#general-data-engineering)
     - [data pipeline](#data-pipeline)
-    - [storage](#storage)
+    - [storage and file types](#storage-and-file-types)
     - [database internal](#database-internal)
   - [RDBMS](#rdbms)
     - [RDBMS Modeling](#rdbms-modeling)
@@ -113,7 +115,7 @@
 
 ### [data pipeline](data-engineering/data_pipeline/README.md)
 
-### [storage](data-engineering/storage/README.md)
+### [storage and file types](data-engineering/storage/README.md)
 
 ### database internal
 
