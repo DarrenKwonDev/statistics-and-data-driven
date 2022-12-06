@@ -6,7 +6,7 @@
 
 <!-- code_chunk_output -->
 
-- [statistics-and-data-driven](#statistics-and-data-driven)
+- [math](#math)
   - [basic math](#basic-math)
     - [선형대수](#선형대수)
     - [미적분](#미적분)
@@ -21,6 +21,7 @@
   - [bayesian statistics](#bayesian-statistics)
   - [controlled experiments](#controlled-experiments)
   - [machine learning](#machine-learning)
+- [engineering](#engineering)
   - [general data engineering](#general-data-engineering)
     - [data pipeline](#data-pipeline)
     - [storage and file types](#storage-and-file-types)
@@ -30,6 +31,8 @@
     - [SQL](#sql)
   - [scalability](#scalability)
   - [distribution computing](#distribution-computing)
+- [applied](#applied)
+  - [product growth strategies](#product-growth-strategies)
   - [financial engineering](#financial-engineering)
   - [doc-culture](#doc-culture)
   - [etc](#etc)
@@ -41,9 +44,11 @@
 
 <!-- /code_chunk_output -->
 
-# statistics-and-data-driven
-
 데이터 관련 직군 현업자들과 함께한 스터디 정리 및 개인 공부 내용을 정리
+
+---
+
+# math
 
 ## basic math
 
@@ -111,6 +116,10 @@
 
 </details>
 
+---
+
+# engineering
+
 ## general data engineering
 
 ### [data pipeline](data-engineering/data_pipeline/README.md)
@@ -160,6 +169,19 @@
 
 </details>
 
+---
+
+# applied
+
+## product growth strategies
+
+<details open>
+<summary>references</summary>
+
+> Gold, and 정현지. 고객 리텐션의 전략 : 데이터를 통해 고객 이탈을 막아라 / 칼 골드 ; 정현지 옮김 (2022). Print.
+
+</details>
+
 ## financial engineering
 
 <details open>
@@ -181,6 +203,9 @@
 [바로가기](./ch06-doc-culture/README.md)
 
 ## etc
+
+<details>
+<summary>etc</summary>
 
 ### disclaimer
 
@@ -207,3 +232,5 @@ pre-commit run --all-files # in case you want to run it on all files
 > http://norman3.github.io/prml/docs/chapter02/3_1
 
 ### glossary
+
+</details>
