@@ -2,6 +2,8 @@
 <!-- code_chunk_output -->
 
 - [storage and file types](#storage-and-file-types)
+  - [Data Warehousing / Data Lakes](#data-warehousing--data-lakes)
+    - [Data Warehouse(DWH) vs Data Lake(DL) vs Lake House(LH)](#data-warehousedwh-vs-data-lakedl-vs-lake-houselh)
   - [access pattern(storage layer에 어떤 방식으로 access 하는가)](#access-patternstorage-layer에-어떤-방식으로-access-하는가)
   - [how to decide which storage to use](#how-to-decide-which-storage-to-use)
     - [Row vs Columnar Storage](#row-vs-columnar-storage)
@@ -14,6 +16,34 @@
     - [Functional partitioning](#functional-partitioning)
 
 ## storage and file types
+
+### Data Warehousing / Data Lakes
+
+#### Data Warehouse(DWH) vs Data Lake(DL) vs Lake House(LH)
+
+공통적으로 이 것들의 목적은 발생한 데이터를 한 곳에 모으는 것(aggregation)이다.  
+그러나 data model과 목적에 따라 DWH, DL, LH을 구별하여 사용한다.
+
+DWH
+
+- 구조화된 데이터, OLTP, 쓰기 위주의 연산, ACID-compliant database transactions
+- Notably, Data Warehouses particularly struggle with support for advanced data engineering, data science, and machine learning.
+- [Kimball](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) 스타일의 모델링 적용
+
+DL
+
+- 모든 타입의 데이터이되 OLAP에 특화, 읽기 위주의 연산, API connectivity, 높은 압축 형식을 가진 file types(ex - parquet)로 저장하는 형식
+- Data Lakes sometimes notoriously struggle with data quality, transactional support, data governance, and query performance issues.
+- file 기반 스토리지가 쓰이는 data lake라고 할지라도 interface는 SQL-based라서 일반 RDBMS와 비슷하게 느껴지지만 내부의 기술적 내용은 많이 다르다.
+  - The backend processing engines are completely different
+  - The size of the data is usually completely different
+
+LH
+
+- DWH와 DL을 조합하여 운용하는 아키텍처 방식.
+- https://towardsdatascience.com/the-fundamentals-of-data-warehouse-data-lake-lake-house-ff640851c832
+- https://www.databricks.com/product/data-lakehouse
+- https://aws.amazon.com/ko/blogs/big-data/build-a-lake-house-architecture-on-aws/
 
 ### access pattern(storage layer에 어떤 방식으로 access 하는가)
 
