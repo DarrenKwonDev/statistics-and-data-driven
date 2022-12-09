@@ -19,6 +19,7 @@
     - [유의성 검정](#유의성-검정)
   - [bayesian statistics](#bayesian-statistics)
   - [controlled experiments](#controlled-experiments)
+  - [causal inference](#causal-inference)
   - [machine learning](#machine-learning)
 - [engineering](#engineering)
   - [general data engineering](#general-data-engineering)
@@ -101,6 +102,15 @@
 <summary>references</summary>
 
 > Kohavi, Ron, Alex Deng, Brian Frasca, Roger Longbotham, Toby Walker, and Ya Xu. "Trustworthy Online Controlled Experiments."
+
+</details>
+
+## causal inference
+
+<details open>
+<summary>references</summary>
+
+> https://github.com/CausalInferenceLab/Causal-Inference-with-Python
 
 </details>
 
