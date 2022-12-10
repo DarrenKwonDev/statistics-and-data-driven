@@ -20,6 +20,7 @@
   - [bayesian statistics](#bayesian-statistics)
   - [controlled experiments](#controlled-experiments)
   - [causal inference](#causal-inference)
+  - [forecasting](#forecasting)
   - [machine learning](#machine-learning)
 - [engineering](#engineering)
   - [general data engineering](#general-data-engineering)
@@ -111,6 +112,15 @@
 <summary>references</summary>
 
 > https://github.com/CausalInferenceLab/Causal-Inference-with-Python
+
+</details>
+
+## forecasting
+
+<details open>
+<summary>references</summary>
+
+> https://otexts.com/fppkr/
 
 </details>
 
