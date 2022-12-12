@@ -18,7 +18,9 @@
     - [표본추출](#표본추출)
     - [유의성 검정](#유의성-검정)
   - [bayesian statistics](#bayesian-statistics)
-  - [controlled experiments](#controlled-experiments)
+  - [controlled experiments(대조 실험, A/B 테스팅)](#controlled-experiments대조-실험-ab-테스팅)
+    - [design of experiments(실험 설계)](#design-of-experiments실험-설계)
+    - [online A/B testing](#online-ab-testing)
   - [causal inference](#causal-inference)
   - [forecasting](#forecasting)
   - [machine learning](#machine-learning)
@@ -37,11 +39,11 @@
   - [financial engineering](#financial-engineering)
   - [doc-culture](#doc-culture)
 - [etc](#etc)
-    - [disclaimer](#disclaimer)
-    - [highschool math](#highschool-math)
-    - [pre-commit hook](#pre-commit-hook)
-    - [ref](#ref)
-    - [glossary](#glossary)
+  - [disclaimer](#disclaimer)
+  - [highschool math](#highschool-math)
+  - [pre-commit hook](#pre-commit-hook)
+  - [ref](#ref)
+  - [glossary](#glossary)
 
 ![math](./images/math.svg)
 
@@ -97,7 +99,11 @@
 
 </details>
 
-## controlled experiments
+## controlled experiments(대조 실험, A/B 테스팅)
+
+### [design of experiments(실험 설계)](./controlled-experiments/experiments-design/README.md)
+
+### [online A/B testing](./controlled-experiments/ab-testing/README.md)
 
 <details open>
 <summary>references</summary>
@@ -162,7 +168,8 @@
 <summary>references</summary>
 
 > Introduction to Data Engineering / Daniel Beach (2022)  
-> 이기홍, and 곽승주. 데이터베이스 설계와 관계형 이론 : 정규화와 탈정규화를 중심으로 / C. J. 데이트 지음 ; 이기홍, 곽승주 옮김 (2021). Print.
+> 이기홍, and 곽승주. 데이터베이스 설계와 관계형 이론 : 정규화와 탈정규화를 중심으로 / C. J. 데이트 지음 ; 이기홍, 곽승주 옮김 (2021). Print.  
+> https://www.linkedin.com/pulse/internals-postgresql-chapter-1-urooj-fatima-raza/
 
 </details>
 
