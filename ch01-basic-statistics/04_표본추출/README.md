@@ -73,7 +73,7 @@ quota sampling을 근본적으로 잘못되어 있다. 만약 성비라는 기�
 - response bias 응답편의
 - household bias 가구편의
 
-우리는 양적 연구를 하고 있기 때문에 확률적 샘플링에서 발생하는 bias를 다뤘지만 사실 bias는 질적 연구에서도 발생한다.
+우리는 양적 연구를 하고 있기 때문에 확률적 샘플링에서 발생하는 bias를 다뤘지만 사실 bias는 질적 연구에서도 발생하며 실험 과정의 모든 단계에서 발생할 수 있다.
 
 다양한 bias를 리스트를 확인해보고 싶다면 [scribbr](https://www.scribbr.com/category/research-bias/)의 글을 참고해보자.
 
