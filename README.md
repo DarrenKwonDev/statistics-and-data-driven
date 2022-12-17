@@ -81,7 +81,7 @@ regression equation과 coefficient of determination(결정계수, R)에 대해�
 
 ### [확률과 변동성](./ch01-basic-statistics/03_확률과_변동성/README.md)
 
-확률, box-model, 기대값과 표준오차, 확률적 히스토그램의 정규분포로의 근사에 대해서 공부합니다.
+확률, box-model, 기대값과 표준오차, CLT(중심극한정리), 확률적 히스토그램의 정규분포로의 근사에 대해서 공부합니다.
 
 ### [표본추출](./ch01-basic-statistics/04_표본추출/README.md)
 
