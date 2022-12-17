@@ -89,7 +89,7 @@ regression equation과 coefficient of determination(결정계수, R)에 대해�
 
 ### [유의성 검정](./ch01-basic-statistics/05_유의성검정/README.md)
 
-z-검정, t-검정에 대해서 배웁니다.
+z-검정, t-검정, p값, run검정, $\chi^2$-검정에 대해서 배웁니다.
 
 <details open>
 
