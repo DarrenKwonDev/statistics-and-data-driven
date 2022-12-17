@@ -73,7 +73,7 @@
 
 ### [자료의 정리](./ch01-basic-statistics/01_자료의_정리/README.md)
 
-대표값, ND, standardization, 기본 통계학의 멘탈 모델에 대해서 배웁니다
+대표값, skewness, ND, standardization, 기본 통계학의 멘탈 모델에 대해서 배웁니다
 
 ### [상관관계와 회귀 분석](./ch01-basic-statistics/02_상관관계와_회귀분석/README.md)
 
@@ -85,7 +85,7 @@ regression equation과 coefficient of determination(결정계수, R)에 대해�
 
 ### [표본추출](./ch01-basic-statistics/04_표본추출/README.md)
 
-표본 추출과 표본합, 표본 평균에 대해서 공부합니다.
+표본 추출과 표본합, 표본 평균, 신뢰구간에 대해서 공부합니다.
 
 ### 유의성 검정
 

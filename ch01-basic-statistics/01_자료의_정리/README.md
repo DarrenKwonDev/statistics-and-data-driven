@@ -18,6 +18,7 @@
   - [standardization(표준화)](#standardization표준화)
   - [normal distribution(정규분포)](#normal-distribution정규분포)
   - [정규분포로 부터 근사](#정규분포로-부터-근사)
+  - [정규 분포가 아닌 경우. skewness(왜도)](#정규-분포가-아닌-경우-skewness왜도)
   - [정규 분포가 아닌 데이터들의 대표값 : percentile(백분위수), quartile(사분위수), decile(십분위수)](#정규-분포가-아닌-데이터들의-대표값--percentile백분위수-quartile사분위수-decile십분위수)
 - [glossary](#glossary)
 
@@ -186,10 +187,29 @@ $$
 
 히스토그램이 정규 분포와 비슷할 경우 정규분포표를 참고하여 대강 값을 '근사'해낼 수 있다. 이게 생각보다 많이 편함!
 
+### 정규 분포가 아닌 경우. skewness(왜도)
+
+분포가 꼭 ND이라는 법은 없다. 보통 ND가 아닌 경우가 대부분이다.
+
+- skewness(비대칭도, 왜도) : 분포의 비대칭 정도를 나타내는 척도이다.
+
+  - $$
+    \frac{1}{n}\sum_{i=1}^n(x_i - \bar{x})^3 / S^3
+    $$
+
+  - right skewed(positive skew)라면 꼬리가 오른쪽으로 길다. 대부분의 숫자가 작은 쪽이고 소수가 큰 쪽에 있다. 연봉이 대표적임.
+  - left skewed(negative skew)라면 꼬리가 왼쪽으로 길다. 대부분의 숫자가 큰 쪽이고 소수가 작은 쪽에 있다. 대출금액이 대표적임.
+  - skewness에 따른 평균과 표준은 다음과 같다.
+    연봉 같은 경우 right skewed이므로 평균이 아닌 중위값을 봐야한다
+
+    <img src="./skewness.jpeg" />
+
 ### 정규 분포가 아닌 데이터들의 대표값 : percentile(백분위수), quartile(사분위수), decile(십분위수)
 
 - 히스토그램 그려보면 정규 분포 아닌 경우도 많다.
+
   - 대표적으로 소득은 right-skewed(오른쪽으로 치우침)되어있다. 소수의 사람이 많이 받고 대부분의 사람이 적게 받는 형태이다.
+
 - 이런 경우 구간을 나누어서 판단하면 좋다. 구간을 100으로 나눈 percentile, 구간을 25%씩 나눈 quartile, 구간을 10%씩 나눈 decile이 있다.
   - 수학적으로 25백분위수 = 1사분위수 일 것이다.
   - min, 25%, 50%, 75%, max를 보통 five number summary라 부르며 이 숫자에 기초에 box plot을 그리곤 함
@@ -203,10 +223,7 @@ $$
 - 통계량(statistic) 표본으로부터의 수치적 요약값
 - 추론(inference) 표본으로 부터 모집단의 특성을 추론하는 것으로 표본이 충분히 크기 때문에 근사한다는 `큰 수의 법칙`에 의하여 추론 가능
 - 렉시스 도표(Lexis diagram) : 출생집단별로 시간에 따른 나이 변화를 보여주는 도표
-- skewness(비대칭도)
-  - $$
-    \frac{1}{n}\sum_{i=1}^n(x_i - \bar{x})^3 / S^3
-    $$
+
 - kurtosis(첨도)
   - $$
     \frac{1}{n}\sum_{i=1}^n(x_i - \bar{x})^4 / S^4
