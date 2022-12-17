@@ -40,10 +40,8 @@
   - [doc-culture](#doc-culture)
 - [etc](#etc)
   - [disclaimer](#disclaimer)
-  - [highschool math](#highschool-math)
   - [pre-commit hook](#pre-commit-hook)
   - [ref](#ref)
-  - [glossary](#glossary)
 
 ![math](./images/math.svg)
 
@@ -75,11 +73,19 @@
 
 ### [자료의 정리](./ch01-basic-statistics/01_자료의_정리/README.md)
 
+대표값, ND, standardization, 기본 통계학의 멘탈 모델에 대해서 배웁니다
+
 ### [상관관계와 회귀 분석](./ch01-basic-statistics/02_상관관계와_회귀분석/README.md)
+
+regression equation과 coefficient of determination(결정계수, R)에 대해서 배웁니다
 
 ### [확률과 변동성](./ch01-basic-statistics/03_확률과_변동성/README.md)
 
+확률, box-model, 기대값과 표준오차, 확률적 히스토그램의 정규분포로의 근사에 대해서 공부합니다.
+
 ### [표본추출](./ch01-basic-statistics/04_표본추출/README.md)
+
+표본 추출과 표본합, 표본 평균에 대해서 공부합니다.
 
 ### 유의성 검정
 
@@ -196,6 +202,8 @@
 
 # applied
 
+모두 DDDM(Data driven decision making)의 일부입니다.
+
 ## product growth strategies
 
 <details open>
@@ -234,15 +242,6 @@
 
 no typing
 
-### highschool math
-
-별도로 설명하지는 않겠지만 아래 내용을 알고 있어야 한다.
-
-- 고1) 다항식, 인수분해, 이차함수, 복소수, 원, 직선의 이동, 집합론
-- 수1) 제곱, 로그, 삼각함수, 수열
-- 수2) 극한, 기초 미적분
-- 확통) 기초 확률론, 정규 분포
-
 ### pre-commit hook
 
 ```bash
@@ -253,7 +252,5 @@ pre-commit run --all-files # in case you want to run it on all files
 ### ref
 
 > http://norman3.github.io/prml/docs/chapter02/3_1
-
-### glossary
 
 </details>
