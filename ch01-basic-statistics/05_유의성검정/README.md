@@ -2,16 +2,20 @@
 
 <!-- code_chunk_output -->
 
-- [01 유의성 검정(significance test)](#01-유의성-검정significance-test)
+- [01 유의성 검정(significance test) 일반](#01-유의성-검정significance-test-일반)
   - [귀무 가설(영 가설)과 대립 가설](#귀무-가설영-가설과-대립-가설)
   - [z검정과 p값](#z검정과-p값)
+    - [z-test가 유의미한 경우](#z-test가-유의미한-경우)
   - [p-value에 대한 이야기들](#p-value에-대한-이야기들)
   - [ASA(American Statistical Association) Statement on Statistical Significance and P-Values](#asaamerican-statistical-association-statement-on-statistical-significance-and-p-values)
-  - [t-검정](#t-검정)
+  - [t-test](#t-test)
+- [02 복수표본 z-검정(two-sample z-test)](#02-복수표본-z-검정two-sample-z-test)
+- [03 회귀분석의 런검정](#03-회귀분석의-런검정)
+- [04 카이제곱검정](#04-카이제곱검정)
 
 <!-- /code_chunk_output -->
 
-## 01 유의성 검정(significance test)
+## 01 유의성 검정(significance test) 일반
 
 유의성 검정(significance test)은 단순히 어떤 결과가 우연의 산물인지, 아니면 통계적으로 유의한 결과인지(statistically significant)를 판단하는 것이다.
 
@@ -56,11 +60,19 @@ $$
 
 그런데 ASA에서는 꼭 그렇지는 않다는 의견을 내었다. <ins>p값은 연구된 가설이 참일 확률을 나타낼 수 없다.</ins> 좋은 것은, p값 자체를 알려주는 것이다.
 
+#### z-test가 유의미한 경우
+
+앞서 CLT에 의해 표본의 합, 평균이 정규분포를 따라간다는 가정를 하였다. 만약 표본이 적다면 z-test는 할 수 없다. 정규 분포를 따르는 모양이 되지 못할 것이기 때문이다.
+
+표본이 적은 경우에는 t-test나 sign-test를 해야 한다.
+
 ### p-value에 대한 이야기들
 
 p값이 유의 수준을 넘느냐 마느냐로 의사결정을 하는 것 자체가 부적절한 것일 수 있다. p-value hacking으로 어떻게든 값을 내리려는 편법도 많다. 후술하겠지만 p값은 연구된 가설이 참일 확률을 나타낼 수 없다.
 
 p값이 크다는 것은 어떤 효과 또는 연관성이 있다고 할 증거가 부족하다는 (inconclusive) 뜻이지 효과가 없다는 의미가 아니다.
+
+p값이 크다는 것은 우연에 의한 변동이라고 보기에는 일어날 수 있는 확률이 적다는 것이지 확실성을 보장하는 것은 아니다.
 
 ### ASA(American Statistical Association) Statement on Statistical Significance and P-Values
 
@@ -80,4 +92,16 @@ p값으로 정의되는 확률이 0.05 미만이면 통계적으로 유의한 �
 
 6. By itself, a p-value does not provide a good measure of evidence regarding a model or hypothesis. (p값 그 자체로는 모델이나 가설에 대한 좋은 판단의 근거가 되지 못한다.)
 
-### t-검정
+### t-test
+
+표본의 크기가 적다면 정규분포에 근사할 수 없다. 그래서 t-분포 곡선을 기반으로 p-value를 계산한다. t-분포곡선은 자유도에 따라 그 모양이 달라진다. 자유도가 증가할 수록 정규분포곡선과 가까워진다.
+
+$$
+자유도 = 측정횟수 - 1
+$$
+
+## 02 복수표본 z-검정(two-sample z-test)
+
+## 03 회귀분석의 런검정
+
+## 04 카이제곱검정
