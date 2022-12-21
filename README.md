@@ -11,7 +11,7 @@
   - [optimization problem](#optimization-problem)
   - [엔트로피](#엔트로피)
   - [basic statistics](#basic-statistics)
-  - [bayesian statistics](#bayesian-statistics)
+  - [bayesian and intermediate statistics](#bayesian-and-intermediate-statistics)
   - [forecasting](#forecasting)
 - [engineering](#engineering)
   - [general data engineering](#general-data-engineering)
@@ -32,9 +32,9 @@
   - [product growth strategies](#product-growth-strategies)
   - [financial engineering](#financial-engineering)
 - [etc](#etc)
-  - [disclaimer](#disclaimer)
-  - [pre-commit hook](#pre-commit-hook)
-  - [ref](#ref)
+    - [disclaimer](#disclaimer)
+    - [pre-commit hook](#pre-commit-hook)
+    - [ref](#ref)
 
 ![math](./images/math.svg)
 
@@ -89,13 +89,13 @@
 
 ## basic statistics
 
-| Chapter                                                                          | 요약                                                                                                                |
-| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| [자료의 정리](./ch01-basic-statistics/01_자료의_정리/README.md)                  | 대표값, skewness, ND, standardization, 기본 통계학의 멘탈 모델에 대해서 배웁니다                                    |
-| [상관관계와 회귀 분석](./ch01-basic-statistics/02_상관관계와_회귀분석/README.md) | regression equation과 coefficient of determination(결정계수, R)에 대해서 배웁니다                                   |
-| [확률과 변동성](./ch01-basic-statistics/03_확률과_변동성/README.md)              | 확률, box-model, 기대값과 합의 표준오차, CLT(중심극한정리), 확률적 히스토그램의 정규분포로의 근사에 대해서 배웁니다 |
-| [표본추출](./ch01-basic-statistics/04_표본추출/README.md)                        | 표본 추출과 표본합, 표본 평균, 표본 합/평균/개수/비율 표준 오차, 신뢰구간에 대해서 배웁니다                         |
-| [유의성 검정](./ch01-basic-statistics/05_유의성검정/README.md)                   | z-검정, t-검정, p값, run검정, $\chi^2$-검정에 대해서 배웁니다.                                                      |
+| Chapter                                                                     | 요약                                                                                                                |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| [자료의 정리](./basic-statistics/01_자료의_정리/README.md)                  | 대표값, skewness, ND, standardization, 기본 통계학의 멘탈 모델에 대해서 배웁니다                                    |
+| [상관관계와 회귀 분석](./basic-statistics/02_상관관계와_회귀분석/README.md) | regression equation과 coefficient of determination(결정계수, R)에 대해서 배웁니다                                   |
+| [확률과 변동성](./basic-statistics/03_확률과_변동성/README.md)              | 확률, box-model, 기대값과 합의 표준오차, CLT(중심극한정리), 확률적 히스토그램의 정규분포로의 근사에 대해서 배웁니다 |
+| [표본추출](./basic-statistics/04_표본추출/README.md)                        | 표본 추출과 표본합, 표본 평균, 표본 합/평균/개수/비율 표준 오차, 신뢰구간에 대해서 배웁니다                         |
+| [유의성 검정](./basic-statistics/05_유의성검정/README.md)                   | z-검정, t-검정, p값, run검정, $\chi^2$-검정에 대해서 배웁니다.                                                      |
 
 <details open>
 
@@ -107,15 +107,26 @@
 
 </details>
 
-## bayesian statistics
+## bayesian and intermediate statistics
 
-| Chapter | 요약 |
-| ------- | ---- |
+| Chapter                 | 요약 |
+| ----------------------- | ---- |
+| 베이즈 정리             | ...  |
+| 다양한 분포             | ...  |
+| 비율과 수량에 대한 추정 | ...  |
+| 공산과 가산             | ...  |
+| 포아송 과정             | ...  |
+| 의사결정분석            | ...  |
+| 검정                    | ...  |
+| 비교                    | ...  |
+| 분류                    | ...  |
+| 추론                    | ...  |
 
 <details open>
 <summary>references</summary>
 
-> Downey, and 권정민. 파이썬을 활용한 베이지안 통계 / 앨런 B. 다우니 지음 ; 권정민 옮김 (2014). Print.
+> Downey, and 권정민. 파이썬을 활용한 베이지안 통계 / 앨런 B. 다우니 지음 ; 권정민 옮김 (2014). Print.  
+> https://allendowney.github.io/ThinkBayes2
 
 </details>
 
