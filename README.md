@@ -42,14 +42,14 @@
 
 ## linear algebra
 
-| Chapter | 요약 |
-| ------- | ---- |
+-   [주재걸 교수의 <인공지능을 위한 선형대수> 노트 필기](./basic-math/linear_algebra/주재걸_선형대수/README.md)
 
 <details open>
 <summary>references</summary>
 
 > 김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.  
 > Hiraoka, Hori, 이창신, and Hori, Gen. 프로그래머를 위한 선형대수 = Linear Algebra for Programmer / 히라오카 카즈유키, 호리 겐 [공]지음 ; 이창신 옮김 (2017). Print.
+> 인공지능을 위한 선형대수 (https://www.boostcourse.org/ai251)
 
 </details>
 
