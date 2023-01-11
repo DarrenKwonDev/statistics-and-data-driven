@@ -201,11 +201,15 @@
 
 # machine learning
 
-| Chapter | 요약 |
-| ------- | ---- |
+| Chapter                          | 요약 |
+| -------------------------------- | ---- |
+| 모두를 위한 머신러닝/딥러닝 강의 | 🤡   |
+| 모두를 위한 딥러닝 시즌 2        | 🤡   |
 
 <details open>
 <summary>references</summary>
+
+> AI/딥러닝 입문자 학습 가이드. https://www.edwith.org/hellodl101/lecture/103151?isDesc=false.
 
 </details>
 
