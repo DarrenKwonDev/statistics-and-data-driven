@@ -42,15 +42,16 @@
 
 ## linear algebra
 
--   [주재걸 교수의 <인공지능을 위한 선형대수> 노트 필기](./basic-math/linear_algebra/주재걸_선형대수/README.md)
+-   [주재걸 교수의 <인공지능을 위한 선형대수> - 노트 필기](./basic-math/linear_algebra/주재걸_선형대수/README.md)
 -   [알고리즘으로 배우는 선형대수](./basic-math/linear_algebra/알고리즘으로_배우는_선형대수/README.md)
 
 <details open>
 <summary>references</summary>
 
-> 김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.  
-> Hiraoka, Hori, 이창신, and Hori, Gen. 프로그래머를 위한 선형대수 = Linear Algebra for Programmer / 히라오카 카즈유키, 호리 겐 [공]지음 ; 이창신 옮김 (2017). Print.
-> 인공지능을 위한 선형대수 (https://www.boostcourse.org/ai251)
+> -   김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.
+> -   Hiraoka, Hori, 이창신, and Hori, Gen. 프로그래머를 위한 선형대수 = Linear Algebra for Programmer / 히라오카 카즈유키, 호리 겐 [공]지음 ; 이창신 옮김 (2017). Print.
+> -   인공지능을 위한 선형대수 (https://www.boostcourse.org/ai251)
+> -   [Introduction to Linear Algebra for Applied Machine Learning with Python](https://pabloinsente.github.io/intro-linear-algebra)
 
 </details>
 
@@ -62,8 +63,8 @@
 <details open>
 <summary>references</summary>
 
-> 김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.  
-> Nagano, and 장진희. 다시 미분 적분 = Try Again, Calculas! / 나가노 히로유키 지음 ; 장진희 옮김 (2019). Print.
+> -   김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.
+> -   Nagano, and 장진희. 다시 미분 적분 = Try Again, Calculas! / 나가노 히로유키 지음 ; 장진희 옮김 (2019). Print.
 
 </details>
 
@@ -75,7 +76,7 @@
 <details open>
 <summary>references</summary>
 
-> 김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.
+> -   -   김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.
 
 </details>
 
@@ -84,7 +85,7 @@
 <details open>
 <summary>references</summary>
 
-> 김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.
+> -   김도형. (김도형의) 데이터 사이언스 스쿨 : 수학편 / 김도형 지음 (2019). Print.
 
 </details>
 
@@ -102,9 +103,9 @@
 
 <summary>references</summary>
 
-> 류근관. 통계학 / 저자: 류근관 (2013).  
-> Bruce, Gedeck, 이준용, Bruce, Andrew, and Gedeck, Peter. 데이터 과학을 위한 통계 / 피터 브루스, 앤드루 브루스, 피터 게데크 지음 ; 이준용 옮김. (2021). Print.  
-> https://dlsun.github.io/probability/
+> -   류근관. 통계학 / 저자: 류근관 (2013).
+> -   Bruce, Gedeck, 이준용, Bruce, Andrew, and Gedeck, Peter. 데이터 과학을 위한 통계 / 피터 브루스, 앤드루 브루스, 피터 게데크 지음 ; 이준용 옮김. (2021). Print.
+> -   https://dlsun.github.io/probability/
 
 </details>
 
@@ -126,8 +127,8 @@
 <details open>
 <summary>references</summary>
 
-> Downey, and 권정민. 파이썬을 활용한 베이지안 통계 / 앨런 B. 다우니 지음 ; 권정민 옮김 (2014). Print.  
-> https://allendowney.github.io/ThinkBayes2
+> -   Downey, and 권정민. 파이썬을 활용한 베이지안 통계 / 앨런 B. 다우니 지음 ; 권정민 옮김 (2014). Print.
+> -   https://allendowney.github.io/ThinkBayes2
 
 </details>
 
@@ -139,7 +140,7 @@
 <details open>
 <summary>references</summary>
 
-> https://otexts.com/fppkr/
+> -   https://otexts.com/fppkr/
 
 </details>
 
@@ -158,9 +159,9 @@
 <details open>
 <summary>references</summary>
 
-> Densmore, James. Data Pipelines Pocket Reference : Moving and Processing Data for Analytics / James Densmore. 1st ed. 2021. Web.  
-> Introduction to Data Engineering / Daniel Beach (2022)  
-> Petrov, 이우현, and 이태휘. 데이터베이스 인터널스 : 분산 데이터베이스 시스템 심층 분석 / 알렉스 페트로프 지음 ; 이우현 옮김 (2021). Print.
+> -   Densmore, James. Data Pipelines Pocket Reference : Moving and Processing Data for Analytics / James Densmore. 1st ed. 2021. Web.
+> -   Introduction to Data Engineering / Daniel Beach (2022)
+> -   Petrov, 이우현, and 이태휘. 데이터베이스 인터널스 : 분산 데이터베이스 시스템 심층 분석 / 알렉스 페트로프 지음 ; 이우현 옮김 (2021). Print.
 
 </details>
 
@@ -173,9 +174,9 @@
 <details open>
 <summary>references</summary>
 
-> Introduction to Data Engineering / Daniel Beach (2022)  
-> 이기홍, and 곽승주. 데이터베이스 설계와 관계형 이론 : 정규화와 탈정규화를 중심으로 / C. J. 데이트 지음 ; 이기홍, 곽승주 옮김 (2021). Print.  
-> https://www.linkedin.com/pulse/internals-postgresql-chapter-1-urooj-fatima-raza/
+> -   Introduction to Data Engineering / Daniel Beach (2022)
+> -   이기홍, and 곽승주. 데이터베이스 설계와 관계형 이론 : 정규화와 탈정규화를 중심으로 / C. J. 데이트 지음 ; 이기홍, 곽승주 옮김 (2021). Print.
+> -   https://www.linkedin.com/pulse/internals-postgresql-chapter-1-urooj-fatima-raza/
 
 </details>
 
@@ -184,7 +185,7 @@
 <details open>
 <summary>references</summary>
 
-> https://github.com/binhnguyennus/awesome-scalability
+> -   https://github.com/binhnguyennus/awesome-scalability
 
 </details>
 
@@ -193,7 +194,7 @@
 <details open>
 <summary>references</summary>
 
-> Travis Jeffrey. Distributed Services with Go: Your Guide to Reliable, Scalable, and Maintainable Systems
+> -   Travis Jeffrey. Distributed Services with Go: Your Guide to Reliable, Scalable, and Maintainable Systems
 
 </details>
 
@@ -209,7 +210,7 @@
 <details open>
 <summary>references</summary>
 
-> AI/딥러닝 입문자 학습 가이드. https://www.edwith.org/hellodl101/lecture/103151?isDesc=false.
+> -   AI/딥러닝 입문자 학습 가이드. https://www.edwith.org/hellodl101/lecture/103151?isDesc=false.
 
 </details>
 
@@ -229,7 +230,7 @@
 <details open>
 <summary>references</summary>
 
-> Kohavi, Ron, Alex Deng, Brian Frasca, Roger Longbotham, Toby Walker, and Ya Xu. "Trustworthy Online Controlled Experiments."
+> -   Kohavi, Ron, Alex Deng, Brian Frasca, Roger Longbotham, Toby Walker, and Ya Xu. "Trustworthy Online Controlled Experiments."
 
 </details>
 
@@ -241,7 +242,7 @@
 <details open>
 <summary>references</summary>
 
-> https://github.com/CausalInferenceLab/Causal-Inference-with-Python
+> -   https://github.com/CausalInferenceLab/Causal-Inference-with-Python
 
 </details>
 
@@ -250,7 +251,7 @@
 <details open>
 <summary>references</summary>
 
-> Gold, and 정현지. 고객 리텐션의 전략 : 데이터를 통해 고객 이탈을 막아라 / 칼 골드 ; 정현지 옮김 (2022). Print.
+> -   Gold, and 정현지. 고객 리텐션의 전략 : 데이터를 통해 고객 이탈을 막아라 / 칼 골드 ; 정현지 옮김 (2022). Print.
 
 </details>
 
@@ -279,6 +280,6 @@ pre-commit run --all-files # in case you want to run it on all files
 
 ### ref
 
-> http://norman3.github.io/prml/docs/chapter02/3_1
+> -   http://norman3.github.io/prml/docs/chapter02/3_1
 
 </details>

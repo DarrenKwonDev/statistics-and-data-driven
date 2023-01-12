@@ -2,25 +2,25 @@
 
 <!-- code_chunk_output -->
 
-- [01 상관관계](#01-상관관계)
-  - [상관관계와 인과관계](#상관관계와-인과관계)
-  - [correlation coefficient(상관계수, r)](#correlation-coefficient상관계수-r)
-  - [상관계수의 의미와 한계](#상관계수의-의미와-한계)
-- [02 simple regression analysis (단순회귀분석)](#02-simple-regression-analysis-단순회귀분석)
-  - [regression line(회귀 직선)](#regression-line회귀-직선)
-  - [regression effect](#regression-effect)
-  - [용어의 혼란 주의](#용어의-혼란-주의)
-- [03 회귀분석의 오차](#03-회귀분석의-오차)
-  - [residual(잔차), RMSE](#residual잔차-rmse)
-  - [correlation coefficient(r)를 통한 RMSE 추정](#correlation-coefficientr를-통한-rmse-추정)
-  - [homoscedasticity, heteroscedasticity(등분산성과 이분산성)](#homoscedasticity-heteroscedasticity등분산성과-이분산성)
-  - [세로띠 안의 분포를 정규 분포로 근사하기](#세로띠-안의-분포를-정규-분포로-근사하기)
-- [04 회귀직선](#04-회귀직선)
-  - [linear equation](#linear-equation)
-  - [multiple regression(중회귀분석)](#multiple-regression중회귀분석)
-  - [총변동의 분리와 결정계수(coefficient of determination)](#총변동의-분리와-결정계수coefficient-of-determination)
-  - [adjust R^2 (조정된 결정계수)](#adjust-r2-조정된-결정계수)
-- [glossary](#glossary)
+-   [01 상관관계](#01-상관관계)
+    -   [상관관계와 인과관계](#상관관계와-인과관계)
+    -   [correlation coefficient(상관계수, r)](#correlation-coefficient상관계수-r)
+    -   [상관계수의 의미와 한계](#상관계수의-의미와-한계)
+-   [02 simple regression analysis (단순회귀분석)](#02-simple-regression-analysis-단순회귀분석)
+    -   [regression line(회귀 직선)](#regression-line회귀-직선)
+    -   [regression effect](#regression-effect)
+    -   [용어의 혼란 주의](#용어의-혼란-주의)
+-   [03 회귀분석의 오차](#03-회귀분석의-오차)
+    -   [residual(잔차), RMSE](#residual잔차-rmse)
+    -   [correlation coefficient(r)를 통한 RMSE 추정](#correlation-coefficientr를-통한-rmse-추정)
+    -   [homoscedasticity, heteroscedasticity(등분산성과 이분산성)](#homoscedasticity-heteroscedasticity등분산성과-이분산성)
+    -   [세로띠 안의 분포를 정규 분포로 근사하기](#세로띠-안의-분포를-정규-분포로-근사하기)
+-   [04 회귀직선](#04-회귀직선)
+    -   [linear equation](#linear-equation)
+    -   [multiple regression(중회귀분석)](#multiple-regression중회귀분석)
+    -   [총변동의 분리와 결정계수(coefficient of determination)](#총변동의-분리와-결정계수coefficient-of-determination)
+    -   [adjust R^2 (조정된 결정계수)](#adjust-r2-조정된-결정계수)
+-   [glossary](#glossary)
 <!-- /code_chunk_output -->
 
 ## 01 상관관계
@@ -29,8 +29,8 @@
 
 상관관계는 역이 성립하지만(원인과 결과가 뒤바뀜) 인과관계는 비대칭이다.
 
-- A라서 B가 발생했다(인과) -> B라서 A가 발생했다(거짓)
-- A란 경향이면 B란 경향이다(상관) -> B란 경향을 보이면 A란 경향이다(참)
+-   A라서 B가 발생했다(인과) -> - -B라서 A가 발생했다(거짓)
+-   A란 경향이면 B란 경향이다(상관) -> - -B란 경향을 보이면 A란 경향이다(참)
 
 ### correlation coefficient(상관계수, r)
 
@@ -50,17 +50,17 @@ $$
 
 ### 상관계수의 의미와 한계
 
-- 상관 계수가 0.8이면 0.4인 관계보다 두 배만큼 강한 관계?
-  - 강도가 2배라는 말은 틀렸다. 상관 관계가 0.8이라면 단순히 0.4보다 클 뿐, 강도가 숫자 그대로 표현되는 것은 아니다.
-- 변수의 선형 변환(ax+b)은 상관계수를 변화시키지 않는다.
-  - 상관계수는 두 변수의 선형 변환에 영향을 받지 않는다. 수학적으로 증명할 수 있으나 지면이 부족하여...
-- 상관 계수는 `두 변수간의 scatter plot이 타원형일 경우에 적합하다`. 그렇지 않으면 상관계수의 유용성이 떨어진다.
-  - outlier의 존재, 두 변수가 비선형 관계일 경우에는 상관계수가 덜 유용하다.
-  - 예를 들어 인간이 느끼는 쾌적함과 온도라는 두 변수는 비선형 관계이다. 단순히 온도가 높거나 낮다고해서 쾌적함이 선형적으로 관계성을 드러내지 않는다.
-- 잘못 해석하면 실제의 관계를 과장하게 된다.
-  - 지역, 국가 등 집단 단위의 자료의 상관계수는 개개인에게 적용되는 관계를 과장할 수 있다.
-- 강한 상관관계를 가진다고해서 그것이 인과관계를 드러내지는 않는다.
-  - 발의 크기와 어휘력이란 두 변수 사이의 상관관계는 인과가 아니다. 나이라는 confounding factor를 무시한 것이다.
+-   상관 계수가 0.8이면 0.4인 관계보다 두 배만큼 강한 관계?
+    -   강도가 2배라는 말은 틀렸다. 상관 관계가 0.8이라면 단순히 0.4보다 클 뿐, 강도가 숫자 그대로 표현되는 것은 아니다.
+-   변수의 선형 변환(ax+b)은 상관계수를 변화시키지 않는다.
+    -   상관계수는 두 변수의 선형 변환에 영향을 받지 않는다. 수학적으로 증명할 수 있으나 지면이 부족하여...
+-   상관 계수는 `두 변수간의 scatter plot이 타원형일 경우에 적합하다`. 그렇지 않으면 상관계수의 유용성이 떨어진다.
+    -   outlier의 존재, 두 변수가 비선형 관계일 경우에는 상관계수가 덜 유용하다.
+    -   예를 들어 인간이 느끼는 쾌적함과 온도라는 두 변수는 비선형 관계이다. 단순히 온도가 높거나 낮다고해서 쾌적함이 선형적으로 관계성을 드러내지 않는다.
+-   잘못 해석하면 실제의 관계를 과장하게 된다.
+    -   지역, 국가 등 집단 단위의 자료의 상관계수는 개개인에게 적용되는 관계를 과장할 수 있다.
+-   강한 상관관계를 가진다고해서 그것이 인과관계를 드러내지는 않는다.
+    -   발의 크기와 어휘력이란 두 변수 사이의 상관관계는 인과가 아니다. 나이라는 confounding factor를 무시한 것이다.
 
 ## 02 simple regression analysis (단순회귀분석)
 
@@ -81,9 +81,9 @@ data의 분포가 타원형이 아니라면, 회귀 직선은 data의 분포를 
 
 ### 용어의 혼란 주의
 
-- y의 x에 대한 값 = x에 대한 y값 = x 값을 기반으로 y값을 추정하고 싶다 = 기울기는 $r \times \frac{SD_y}{SD_x}$
+-   y의 x에 대한 값 = x에 대한 y값 = x 값을 기반으로 y값을 추정하고 싶다 = 기울기는 $r \times \frac{SD_y}{SD_x}$
 
-- x의 y에 대한 값 = y에 대한 x값 = y값을 기반으로 x값을 추정하고 싶다 = 기울기는 $r \times \frac{SD_x}{SD_y}$
+-   x의 y에 대한 값 = y에 대한 x값 = y값을 기반으로 x값을 추정하고 싶다 = 기울기는 $r \times \frac{SD_x}{SD_y}$
 
 ## 03 회귀분석의 오차
 
@@ -183,8 +183,8 @@ R^2 = \frac{SSR}{SST} = 1 - \frac{SSE}{SST} \\
 (0 \leq R^2 \leq 1)
 $$
 
-- 참고로 단순 회귀 분석에 한하여 결정계수는 상관계수의 제곱과 같다. $R^2 = r^2$
-- 중회귀분석일 경우 변수가 늘어날수록 SSR가 늘어나므로 결정계수는 1에 가까워진다. -> 그러면 단순히 독립 변수(설명 변수)만 잔뜩 넣으면 되는거 아닌가? -> 그래서 조정된 결정계수를 활용해야
+-   참고로 단순 회귀 분석에 한하여 결정계수는 상관계수의 제곱과 같다. $R^2 = r^2$
+-   중회귀분석일 경우 변수가 늘어날수록 SSR가 늘어나므로 결정계수는 1에 가까워진다. -> - -그러면 단순히 독립 변수(설명 변수)만 잔뜩 넣으면 되는거 아닌가? -> - -그래서 조정된 결정계수를 활용해야
 
 ### adjust R^2 (조정된 결정계수)
 
@@ -198,5 +198,5 @@ $$
 
 ## glossary
 
-- 독립변수(independent variable): x. 설명 변수로 x -> y의 관계를 설명한다.
-- 종속변수(dependent variable): y. 피설명변수로 x에 의한 영향을 받는다.
+-   독립변수(independent variable): x. 설명 변수로 x -> - -y의 관계를 설명한다.
+-   종속변수(dependent variable): y. 피설명변수로 x에 의한 영향을 받는다.

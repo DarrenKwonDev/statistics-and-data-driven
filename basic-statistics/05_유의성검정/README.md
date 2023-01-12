@@ -2,17 +2,17 @@
 
 <!-- code_chunk_output -->
 
-- [01 유의성 검정(significance test) 일반](#01-유의성-검정significance-test-일반)
-  - [귀무 가설(영 가설)과 대립 가설](#귀무-가설영-가설과-대립-가설)
-  - [z검정과 p값](#z검정과-p값)
-    - [z-test가 유의미한 경우](#z-test가-유의미한-경우)
-  - [p-value에 대한 이야기들](#p-value에-대한-이야기들)
-  - [ASA(American Statistical Association) Statement on Statistical Significance and P-Values](#asaamerican-statistical-association-statement-on-statistical-significance-and-p-values)
-  - [sign-test(부호 검정)](#sign-test부호-검정)
-  - [t-test(t 검정)](#t-testt-검정)
-- [02 복수표본 z-검정(two-sample z-test) : 차이에 대한 유의성 검정](#02-복수표본-z-검정two-sample-z-test--차이에-대한-유의성-검정)
-- [03 회귀분석의 런검정](#03-회귀분석의-런검정)
-- [04 카이제곱검정](#04-카이제곱검정)
+-   [01 유의성 검정(significance test) 일반](#01-유의성-검정significance-test-일반)
+    -   [귀무 가설(영 가설)과 대립 가설](#귀무-가설영-가설과-대립-가설)
+    -   [z검정과 p값](#z검정과-p값)
+        -   [z-test가 유의미한 경우](#z-test가-유의미한-경우)
+    -   [p-value에 대한 이야기들](#p-value에-대한-이야기들)
+    -   [ASA(American Statistical Association) Statement on Statistical Significance and P-Values](#asaamerican-statistical-association-statement-on-statistical-significance-and-p-values)
+    -   [sign-test(부호 검정)](#sign-test부호-검정)
+    -   [t-test(t 검정)](#t-testt-검정)
+-   [02 복수표본 z-검정(two-sample z-test) : 차이에 대한 유의성 검정](#02-복수표본-z-검정two-sample-z-test--차이에-대한-유의성-검정)
+-   [03 회귀분석의 런검정](#03-회귀분석의-런검정)
+-   [04 카이제곱검정](#04-카이제곱검정)
 
 <!-- /code_chunk_output -->
 
@@ -24,8 +24,8 @@
 
 ### 귀무 가설(영 가설)과 대립 가설
 
-- 귀무가설(null hypothesis): $H_0$, 관측된 차이가 우연의 산물이다. 영 가설이라고도 한다.
-- 대립가설(alternative hypothesis): $H_1$, 관측된 차이가 통계적으로 유의미하다.
+-   귀무가설(null hypothesis): $H_0$, 관측된 차이가 우연의 산물이다. 영 가설이라고도 한다.
+-   대립가설(alternative hypothesis): $H_1$, 관측된 차이가 통계적으로 유의미하다.
 
 보통 귀무 가설은 보수적이고 대립 가설은 진취적이다. 일반적으로 가설 검증은 귀무 가설을 기각해서 결과가 통계적으로 유의미하다는 것을 증명하려는 방식으로 진행된다.
 
@@ -44,8 +44,8 @@ $$
 p-value는 유의수준(significance level, $\alpha$, 검정의 크기)을 기준으로 아래와 같이 판단한다.
 양측 검정인지, 단측 검정인지는 실험에 따라 자율적으로 판단한다.
 
-- $p \le \alpha$ : z-통계량이 크다. $H_0$ 귀무 가설 기각. 그렇지만 대립 가설이 맞다는 증거는 아니다.
-- $p \gt \alpha$ : z-통계량이 0에 가깝다. $H_0$ 귀무 가설 기각 못함.
+-   $p \le \alpha$ : z-통계량이 크다. $H_0$ 귀무 가설 기각. 그렇지만 대립 가설이 맞다는 증거는 아니다.
+-   $p \gt \alpha$ : z-통계량이 0에 가깝다. $H_0$ 귀무 가설 기각 못함.
 
 p-value를 정규분포표 보면서 계산해도 되지만 보통 p-value가 유의 수준보다 같거나 작아지게 하는 검정 통계량의 영역, 즉, 기각역(critical region, rejection region)을 외워 판단하는 것이 훨씬 빠르다
 
@@ -61,7 +61,7 @@ $$
 관습적으로 유의 수준은 0.05(5%)로 두고 이하일 경우 통계적으로 유의미하다고 기계적으로 판단하는 경우가 많다.
 보통 $\pm 2SE$ 바깥이면 p값이 5% 이하이므로 귀무가설을 기각한다.
 
-그런데 ASA에서는 꼭 그렇지는 않다는 의견을 내었다. <ins>p값은 연구된 가설이 참일 확률을 나타낼 수 없다.</ins> 좋은 것은, p값 자체를 알려주는 것이다.
+그런데 ASA에서는 꼭 그렇지는 않다는 의견을 내었다. <ins>p값은 연구된 가설이 참일 확률을 나타낼 수 없다.</ins> - -좋은 것은, p값 자체를 알려주는 것이다.
 
 #### z-test가 유의미한 경우
 
@@ -101,8 +101,8 @@ p값으로 정의되는 확률이 0.05 미만이면 통계적으로 유의한 �
 
 예를 들어 10번 던져서 앞면이 9번 나왔다고 했을 때,
 
-- 귀무가설 : 앞면 나올 확률은 50%다
-- 대립가설 : 앞면 나올 확률이 50%가 아니고 동전이나 기타 환경에 무슨 짓을 했을 것이다.
+-   귀무가설 : 앞면 나올 확률은 50%다
+-   대립가설 : 앞면 나올 확률이 50%가 아니고 동전이나 기타 환경에 무슨 짓을 했을 것이다.
 
 그렇다면 $_{10}C_{9} + _{10}C_{10}$ 해서 나온 값을 p-value로 구하는 것이다.
 
@@ -135,8 +135,8 @@ $$
 \sqrt{(SE_{x})^2 + (SE_{y})^2}
 $$
 
-- 평균의 차이에 대한 표준오차를 구하려면 SE는 평균의 SE를 사용
-- 비율의 차이에 대한 표준오차를 구하려면 SE는 표준오차의 SE을 사용한다
+-   평균의 차이에 대한 표준오차를 구하려면 SE는 평균의 SE를 사용
+-   비율의 차이에 대한 표준오차를 구하려면 SE는 표준오차의 SE을 사용한다
 
 ## 03 회귀분석의 런검정
 
