@@ -13,6 +13,7 @@
     -   [basic statistics](#basic-statistics)
     -   [bayesian and intermediate statistics](#bayesian-and-intermediate-statistics)
     -   [forecasting](#forecasting)
+    -   [etc](#etc)
 -   [engineering](#engineering)
     -   [general data engineering](#general-data-engineering)
         -   [data pipeline](#data-pipeline)
@@ -31,7 +32,7 @@
     -   [causal inference](#causal-inference)
     -   [product growth strategies](#product-growth-strategies)
     -   [financial engineering](#financial-engineering)
--   [etc](#etc)
+-   [etc](#etc-1)
     -   [disclaimer](#disclaimer)
     -   [pre-commit hook](#pre-commit-hook)
     -   [ref](#ref)
@@ -143,6 +144,13 @@
 > -   https://otexts.com/fppkr/
 
 </details>
+
+## etc
+
+| Chapter         | 요약 |
+| --------------- | ---- |
+| 주성분분석(PCA) | ---- |
+| MTS             | ---- |
 
 ![engineering](./images/engineering.svg)
 
