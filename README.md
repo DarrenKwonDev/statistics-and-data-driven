@@ -215,11 +215,13 @@
 | 파이썬 머신러닝 완벽 가이드      | sklearn 활용 |
 | 모두를 위한 머신러닝/딥러닝 강의 | 🤡           |
 | 모두를 위한 딥러닝 시즌 2        | 🤡           |
+| 딥러닝 파이토치 교과서           | 🤡           |
 
 <details open>
 <summary>references</summary>
 
 > -   권철민. 파이썬 머신러닝 완벽 가이드 : 다양한 캐글 예제와 함께 기초 알고리즘부터 최신 기법까지 배우 / 권철민 지음 (2022). Print.
+> -   서지영. 딥러닝 파이토치 교과서 = Deep Learning with PyTorch / 서지영 지음 (2022). Print.
 > -   AI/딥러닝 입문자 학습 가이드. https://www.edwith.org/hellodl101/lecture/103151?isDesc=false.
 
 </details>
