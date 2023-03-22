@@ -229,14 +229,18 @@
 
 # MLOps
 
-| Chapter                                                            | 요약 |
-| ------------------------------------------------------------------ | ---- |
-| Machine Learning Engineering for Production (MLOps) Specialization | 🤡   |
+| Chapter                                                                                  | 요약 |
+| ---------------------------------------------------------------------------------------- | ---- |
+| Machine Learning Engineering for Production (MLOps) Specialization                       | 🤡   |
+| MLOps 도입 가이드                                                                        | 🤡   |
+| 머신러닝 디자인 패턴: 효율적인 머신러닝 파이프라인과 MLOps를 구축하는 30가지 디자인 패턴 | 🤡   |
 
 <details open>
 <summary>references</summary>
 
 > -   https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops
+> -   MLOps 도입 가이드. Hanbit Media, 2022. Web.
+> -   머신러닝 디자인 패턴: 효율적인 머신러닝 파이프라인과 MLOps를 구축하는 30가지 디자인 패턴. Hanbit Media, 2021. Web.
 
 </details>
 
