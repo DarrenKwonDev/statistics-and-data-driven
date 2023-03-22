@@ -25,6 +25,7 @@
     -   [scalability](#scalability)
     -   [distribution computing](#distribution-computing)
 -   [machine learning](#machine-learning)
+-   [MLOps](#mlops)
 -   [applied](#applied)
     -   [controlled experiments(대조 실험, A/B 테스팅)](#controlled-experiments대조-실험-ab-테스팅)
         -   [design of experiments(실험 설계)](#design-of-experiments실험-설계)
@@ -223,6 +224,19 @@
 > -   권철민. 파이썬 머신러닝 완벽 가이드 : 다양한 캐글 예제와 함께 기초 알고리즘부터 최신 기법까지 배우 / 권철민 지음 (2022). Print.
 > -   서지영. 딥러닝 파이토치 교과서 = Deep Learning with PyTorch / 서지영 지음 (2022). Print.
 > -   AI/딥러닝 입문자 학습 가이드. https://www.edwith.org/hellodl101/lecture/103151?isDesc=false.
+
+</details>
+
+# MLOps
+
+| Chapter                                                            | 요약 |
+| ------------------------------------------------------------------ | ---- |
+| Machine Learning Engineering for Production (MLOps) Specialization | 🤡   |
+
+<details open>
+<summary>references</summary>
+
+> -   https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops
 
 </details>
 
