@@ -5,38 +5,39 @@
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
 
--   [math](#math)
-    -   [linear algebra](#linear-algebra)
-    -   [calculus](#calculus)
-    -   [optimization problem](#optimization-problem)
-    -   [엔트로피](#엔트로피)
-    -   [basic statistics](#basic-statistics)
-    -   [bayesian and intermediate statistics](#bayesian-and-intermediate-statistics)
-    -   [forecasting](#forecasting)
-    -   [etc](#etc)
--   [engineering](#engineering)
-    -   [general data engineering](#general-data-engineering)
-        -   [data pipeline](#data-pipeline)
-        -   [storage and file types](#storage-and-file-types)
-        -   [database internal](#database-internal)
-    -   [RDBMS](#rdbms)
-        -   [RDBMS Modeling](#rdbms-modeling)
-        -   [SQL](#sql)
-    -   [scalability](#scalability)
-    -   [distribution computing](#distribution-computing)
--   [machine learning](#machine-learning)
--   [MLOps](#mlops)
--   [applied](#applied)
-    -   [controlled experiments(대조 실험, A/B 테스팅)](#controlled-experiments대조-실험-ab-테스팅)
-        -   [design of experiments(실험 설계)](#design-of-experiments실험-설계)
-        -   [online A/B testing](#online-ab-testing)
-    -   [causal inference](#causal-inference)
-    -   [product growth strategies](#product-growth-strategies)
-    -   [financial engineering](#financial-engineering)
--   [etc](#etc-1)
-    -   [disclaimer](#disclaimer)
-    -   [pre-commit hook](#pre-commit-hook)
-    -   [ref](#ref)
+- [math](#math)
+  - [linear algebra](#linear-algebra)
+  - [calculus](#calculus)
+  - [optimization problem](#optimization-problem)
+  - [엔트로피](#엔트로피)
+  - [basic statistics](#basic-statistics)
+  - [bayesian and intermediate statistics](#bayesian-and-intermediate-statistics)
+  - [forecasting](#forecasting)
+  - [etc](#etc)
+- [engineering](#engineering)
+  - [general data engineering](#general-data-engineering)
+    - [data pipeline](#data-pipeline)
+    - [storage and file types](#storage-and-file-types)
+    - [database internal](#database-internal)
+  - [RDBMS](#rdbms)
+    - [RDBMS Modeling](#rdbms-modeling)
+    - [SQL](#sql)
+  - [scalability](#scalability)
+  - [distribution computing](#distribution-computing)
+- [machine learning](#machine-learning)
+- [MLOps](#mlops)
+- [Viz](#viz)
+- [applied](#applied)
+  - [controlled experiments(대조 실험, A/B 테스팅)](#controlled-experiments대조-실험-ab-테스팅)
+    - [design of experiments(실험 설계)](#design-of-experiments실험-설계)
+    - [online A/B testing](#online-ab-testing)
+  - [causal inference](#causal-inference)
+  - [product growth strategies](#product-growth-strategies)
+  - [financial engineering](#financial-engineering)
+- [etc](#etc-1)
+    - [disclaimer](#disclaimer)
+    - [pre-commit hook](#pre-commit-hook)
+    - [ref](#ref)
 
 ![math](./images/math.svg)
 
@@ -241,6 +242,17 @@
 > -   https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops
 > -   MLOps 도입 가이드. Hanbit Media, 2022. Web.
 > -   머신러닝 디자인 패턴: 효율적인 머신러닝 파이프라인과 MLOps를 구축하는 30가지 디자인 패턴. Hanbit Media, 2021. Web.
+
+</details>
+
+# Viz
+
+[링크](./viz/README.md)
+
+<details open>
+<summary>references</summary>
+
+> -   Wilke, and 권혜정. 데이터 시각화 교과서 : 데이터 분석의 본질을 살리는 그래프와 차트 제작의 기본 원리와 응용 / 클라우스 윌케 지음 ; 권혜정 옮김 (2020). Print.
 
 </details>
 
