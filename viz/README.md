@@ -36,4 +36,7 @@
 
 ## 기타 tips
 
--   x축 시작은 0 강추
+-   bar chart의 x축 시작은 0 강추
+-   line chart는 가급적 5개 이하의 선을 사용할 것을 추천. 너무 많으면 시각으로 혼란스러움
+-   line chart는 추세를 보므로 x축의 간격이 중요함. x축의 간격이 규칙적이지 않다면 관측값에 점을 찍어야. 왜? 실제로 관측된 값이 아닌데 선으로 그려서 실제로도 있다고 오해할 수 있기 때문임.
+-   line chart 그리는데 데이터에 노이즈가 너무 많다면 smoothing을 해. [matplotlib plot smooth curve](https://www.delftstack.com/howto/matplotlib/matplotlib-plot-smooth-curve/)
