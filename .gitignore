@@ -1,4 +1,7 @@
 data/
+homework/
+.DS_Store
+human_activity/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
